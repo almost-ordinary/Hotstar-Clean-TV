@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hotstar.widget.autoscrollbackground.AutoscrollBackgroundWidget android:id="@id/rv_auto_scroll_bg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/paywall_summary_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_15" android:layout_marginStart="@dimen/qr_payment_method_space_15">
+        <ImageView android:id="@id/iv_logo" android:visibility="gone" android:layout_width="@dimen/qr_payment_method_space_15" android:layout_height="@dimen/qr_payment_method_space_14" android:scaleType="fitStart" />
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_content" android:padding="1.0dp" android:visibility="gone" android:layout_width="100.0dp" android:layout_height="132.0dp" android:layout_marginTop="@dimen/space_06" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize6dp" app:strokeColor="?on_image_alt_2" app:strokeWidth="1.0dp" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textSize="21.0sp" android:textColor="?on_image_default" android:id="@id/tv_title" android:layout_width="289.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_07" android:layout_marginBottom="@dimen/space_07" android:fontFamily="@font/inter_semibold" android:lineHeight="27.0sp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="274.0dp" android:layout_height="wrap_content">
+            <com.hotstar.core.commonui.molecules.HSTextView android:textSize="20.0sp" android:id="@id/tv_callout_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:fontFamily="@font/soul_icons" android:layout_marginEnd="4.0dp" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:textSize="12.0sp" android:id="@id/tv_callout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_07" android:fontFamily="@font/inter_medium" android:lineHeight="18.0sp" android:textFontWeight="500" />
+        </LinearLayout>
+        <com.hotstar.widget.offer.OfferWidget android:id="@id/offer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_08" />
+    </LinearLayout>
+</merge>

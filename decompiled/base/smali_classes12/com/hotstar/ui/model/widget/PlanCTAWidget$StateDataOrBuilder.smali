@@ -1,0 +1,57 @@
+.class public interface abstract Lcom/hotstar/ui/model/widget/PlanCTAWidget$StateDataOrBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/hotstar/ui/model/widget/PlanCTAWidget;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "StateDataOrBuilder"
+.end annotation
+
+
+# virtual methods
+.method public abstract getIcon()Ljava/lang/String;
+.end method
+
+.method public abstract getIconBytes()Lcom/google/protobuf/ByteString;
+.end method
+
+.method public abstract getTextList(I)Lcom/hotstar/ui/model/feature/quiz/TitleIconCombo;
+.end method
+
+.method public abstract getTextListCount()I
+.end method
+
+.method public abstract getTextListList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/hotstar/ui/model/feature/quiz/TitleIconCombo;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getTextListOrBuilder(I)Lcom/hotstar/ui/model/feature/quiz/TitleIconComboOrBuilder;
+.end method
+
+.method public abstract getTextListOrBuilderList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "+",
+            "Lcom/hotstar/ui/model/feature/quiz/TitleIconComboOrBuilder;",
+            ">;"
+        }
+    .end annotation
+.end method

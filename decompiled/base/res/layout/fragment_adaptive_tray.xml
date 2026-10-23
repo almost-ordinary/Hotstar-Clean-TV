@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_container" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_draggable="false" app:behavior_hideable="false" app:behavior_peekHeight="@dimen/adaptive_tray_tab_container_height" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <View android:id="@id/background" android:background="@color/black_92A" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:id="@id/lin_header" android:layout_width="match_parent" android:layout_height="@dimen/adaptive_tray_tab_container_height" app:layout_constraintTop_toTopOf="parent">
+            <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_default" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="@dimen/adaptive_tray_tab_container_height" style="@style/Text.Button2.SemiBold" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:textSize="@dimen/space_09" android:textColor="?on_image_default" android:gravity="center" android:id="@id/icon_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/soul_icons" android:layout_marginStart="@dimen/space_07" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <View android:id="@id/v_divider" android:background="@color/white_8A" android:layout_width="match_parent" android:layout_height="@dimen/space_02" android:alpha="0.0" android:layout_marginStart="@dimen/menu_width_collapsed" android:layout_marginEnd="@dimen/menu_width_collapsed" app:layout_constraintTop_toBottomOf="@id/lin_header" />
+        <androidx.leanback.widget.BrowseFrameLayout android:id="@id/browse_frame" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/v_divider">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/vp_content" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.leanback.widget.BrowseFrameLayout>
+        <com.hotstar.widget.player.LoadingView android:id="@id/loading_ui" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/v_divider" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

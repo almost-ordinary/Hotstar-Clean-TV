@@ -1,0 +1,1564 @@
+.class public final Lbase/DataBindMechanism$Builder;
+.super Lcom/google/protobuf/GeneratedMessageV3$Builder;
+.source "SourceFile"
+
+# interfaces
+.implements Lbase/DataBindMechanismOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lbase/DataBindMechanism;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Builder"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/protobuf/GeneratedMessageV3$Builder<",
+        "Lbase/DataBindMechanism$Builder;",
+        ">;",
+        "Lbase/DataBindMechanismOrBuilder;"
+    }
+.end annotation
+
+
+# instance fields
+.field private centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/google/protobuf/SingleFieldBuilderV3<",
+            "Lbase/DataBindMechanism$SubscribeToCentralStore;",
+            "Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;",
+            "Lbase/DataBindMechanism$SubscribeToCentralStoreOrBuilder;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private dataBindMechanismCase_:I
+
+.field private dataBindMechanism_:Ljava/lang/Object;
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 1
+
+    .line 3
+    invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;-><init>()V
+
+    const/4 v0, 0x0
+
+    .line 4
+    iput v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 5
+    invoke-direct {p0}, Lbase/DataBindMechanism$Builder;->maybeForceBuilderInitialization()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lbase/DataBindMechanism$1;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lbase/DataBindMechanism$Builder;-><init>()V
+
+    return-void
+.end method
+
+.method private constructor <init>(Lcom/google/protobuf/GeneratedMessageV3$BuilderParent;)V
+    .locals 0
+
+    .line 6
+    invoke-direct {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;-><init>(Lcom/google/protobuf/GeneratedMessageV3$BuilderParent;)V
+
+    const/4 p1, 0x0
+
+    .line 7
+    iput p1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 8
+    invoke-direct {p0}, Lbase/DataBindMechanism$Builder;->maybeForceBuilderInitialization()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/google/protobuf/GeneratedMessageV3$BuilderParent;Lbase/DataBindMechanism$1;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0, p1}, Lbase/DataBindMechanism$Builder;-><init>(Lcom/google/protobuf/GeneratedMessageV3$BuilderParent;)V
+
+    return-void
+.end method
+
+.method private getCentralStoreFieldBuilder()Lcom/google/protobuf/SingleFieldBuilderV3;
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/google/protobuf/SingleFieldBuilderV3<",
+            "Lbase/DataBindMechanism$SubscribeToCentralStore;",
+            "Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;",
+            "Lbase/DataBindMechanism$SubscribeToCentralStoreOrBuilder;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-nez v0, :cond_1
+
+    .line 5
+    .line 6
+    iget v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 7
+    .line 8
+    if-eq v0, v1, :cond_0
+
+    .line 9
+    .line 10
+    invoke-static {}, Lbase/DataBindMechanism$SubscribeToCentralStore;->getDefaultInstance()Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    iput-object v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 15
+    .line 16
+    :cond_0
+    new-instance v0, Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 17
+    .line 18
+    iget-object v2, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 19
+    .line 20
+    check-cast v2, Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 21
+    .line 22
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->getParentForChildren()Lcom/google/protobuf/GeneratedMessageV3$BuilderParent;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v3
+
+    .line 26
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->isClean()Z
+
+    .line 27
+    .line 28
+    .line 29
+    move-result v4
+
+    .line 30
+    invoke-direct {v0, v2, v3, v4}, Lcom/google/protobuf/SingleFieldBuilderV3;-><init>(Lcom/google/protobuf/AbstractMessage;Lcom/google/protobuf/AbstractMessage$BuilderParent;Z)V
+
+    .line 31
+    .line 32
+    .line 33
+    iput-object v0, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 34
+    .line 35
+    const/4 v0, 0x0
+
+    .line 36
+    iput-object v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 37
+    .line 38
+    :cond_1
+    iput v1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 39
+    .line 40
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 41
+    .line 42
+    .line 43
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 44
+    .line 45
+    return-object v0
+.end method
+
+.method public static final getDescriptor()Lcom/google/protobuf/Descriptors$Descriptor;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lbase/DataBindMechanismOuterClass;->a:Lcom/google/protobuf/Descriptors$Descriptor;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method private maybeForceBuilderInitialization()V
+    .locals 0
+
+    .line 1
+    invoke-static {}, Lbase/DataBindMechanism;->access$4400()Z
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public addRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lbase/DataBindMechanism$Builder;
+    .locals 0
+
+    .line 3
+    invoke-super {p0, p1, p2}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->addRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    move-result-object p1
+
+    check-cast p1, Lbase/DataBindMechanism$Builder;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic addRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lbase/DataBindMechanism$Builder;->addRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic addRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1, p2}, Lbase/DataBindMechanism$Builder;->addRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public build()Lbase/DataBindMechanism;
+    .locals 2
+
+    .line 3
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->buildPartial()Lbase/DataBindMechanism;
+
+    move-result-object v0
+
+    .line 4
+    invoke-virtual {v0}, Lbase/DataBindMechanism;->isInitialized()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    return-object v0
+
+    .line 5
+    :cond_0
+    invoke-static {v0}, Lcom/google/protobuf/AbstractMessage$Builder;->newUninitializedMessageException(Lcom/google/protobuf/Message;)Lcom/google/protobuf/UninitializedMessageException;
+
+    move-result-object v0
+
+    throw v0
+.end method
+
+.method public bridge synthetic build()Lcom/google/protobuf/Message;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->build()Lbase/DataBindMechanism;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic build()Lcom/google/protobuf/MessageLite;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->build()Lbase/DataBindMechanism;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public buildPartial()Lbase/DataBindMechanism;
+    .locals 3
+
+    .line 3
+    new-instance v0, Lbase/DataBindMechanism;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p0, v1}, Lbase/DataBindMechanism;-><init>(Lcom/google/protobuf/GeneratedMessageV3$Builder;Lbase/DataBindMechanism$1;)V
+
+    .line 4
+    iget v1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    const/4 v2, 0x1
+
+    if-ne v1, v2, :cond_1
+
+    .line 5
+    iget-object v1, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    if-nez v1, :cond_0
+
+    .line 6
+    iget-object v1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    invoke-static {v0, v1}, Lbase/DataBindMechanism;->access$4602(Lbase/DataBindMechanism;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_0
+
+    .line 7
+    :cond_0
+    invoke-virtual {v1}, Lcom/google/protobuf/SingleFieldBuilderV3;->build()Lcom/google/protobuf/AbstractMessage;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lbase/DataBindMechanism;->access$4602(Lbase/DataBindMechanism;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 8
+    :cond_1
+    :goto_0
+    iget v1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    invoke-static {v0, v1}, Lbase/DataBindMechanism;->access$4702(Lbase/DataBindMechanism;I)I
+
+    .line 9
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onBuilt()V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic buildPartial()Lcom/google/protobuf/Message;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->buildPartial()Lbase/DataBindMechanism;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic buildPartial()Lcom/google/protobuf/MessageLite;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->buildPartial()Lbase/DataBindMechanism;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public clear()Lbase/DataBindMechanism$Builder;
+    .locals 1
+
+    .line 5
+    invoke-super {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->clear()Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    const/4 v0, 0x0
+
+    .line 6
+    iput v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    const/4 v0, 0x0
+
+    .line 7
+    iput-object v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    return-object p0
+.end method
+
+.method public bridge synthetic clear()Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clear()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clear()Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clear()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clear()Lcom/google/protobuf/Message$Builder;
+    .locals 1
+
+    .line 3
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clear()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clear()Lcom/google/protobuf/MessageLite$Builder;
+    .locals 1
+
+    .line 4
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clear()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public clearCentralStore()Lbase/DataBindMechanism$Builder;
+    .locals 5
+
+    .line 1
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    const/4 v2, 0x0
+
+    .line 5
+    const/4 v3, 0x1
+
+    .line 6
+    if-nez v0, :cond_1
+
+    .line 7
+    .line 8
+    iget v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 9
+    .line 10
+    if-ne v0, v3, :cond_0
+
+    .line 11
+    .line 12
+    iput v2, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 13
+    .line 14
+    iput-object v1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 15
+    .line 16
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 17
+    .line 18
+    .line 19
+    :cond_0
+    return-object p0
+
+    .line 20
+    :cond_1
+    iget v4, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 21
+    .line 22
+    if-ne v4, v3, :cond_2
+
+    .line 23
+    .line 24
+    iput v2, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 25
+    .line 26
+    iput-object v1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 27
+    .line 28
+    :cond_2
+    invoke-virtual {v0}, Lcom/google/protobuf/SingleFieldBuilderV3;->clear()Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 29
+    .line 30
+    .line 31
+    return-object p0
+.end method
+
+.method public clearDataBindMechanism()Lbase/DataBindMechanism$Builder;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    iput-object v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 8
+    .line 9
+    .line 10
+    return-object p0
+.end method
+
+.method public clearField(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lbase/DataBindMechanism$Builder;
+    .locals 0
+
+    .line 3
+    invoke-super {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->clearField(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    move-result-object p1
+
+    check-cast p1, Lbase/DataBindMechanism$Builder;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clearField(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->clearField(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clearField(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->clearField(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lbase/DataBindMechanism$Builder;
+    .locals 0
+
+    .line 4
+    invoke-super {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    move-result-object p1
+
+    check-cast p1, Lbase/DataBindMechanism$Builder;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 3
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public clone()Lbase/DataBindMechanism$Builder;
+    .locals 1
+
+    .line 7
+    invoke-super {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->clone()Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    move-result-object v0
+
+    check-cast v0, Lbase/DataBindMechanism$Builder;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clone()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/AbstractMessageLite$Builder;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clone()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 1
+
+    .line 3
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clone()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/Message$Builder;
+    .locals 1
+
+    .line 4
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clone()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/MessageLite$Builder;
+    .locals 1
+
+    .line 5
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clone()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Ljava/lang/Object;
+    .locals 1
+
+    .line 6
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->clone()Lbase/DataBindMechanism$Builder;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getCentralStore()Lbase/DataBindMechanism$SubscribeToCentralStore;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-nez v0, :cond_1
+
+    .line 5
+    .line 6
+    iget v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 7
+    .line 8
+    if-ne v0, v1, :cond_0
+
+    .line 9
+    .line 10
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 11
+    .line 12
+    check-cast v0, Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 13
+    .line 14
+    return-object v0
+
+    .line 15
+    :cond_0
+    invoke-static {}, Lbase/DataBindMechanism$SubscribeToCentralStore;->getDefaultInstance()Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    return-object v0
+
+    .line 20
+    :cond_1
+    iget v2, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 21
+    .line 22
+    if-ne v2, v1, :cond_2
+
+    .line 23
+    .line 24
+    invoke-virtual {v0}, Lcom/google/protobuf/SingleFieldBuilderV3;->getMessage()Lcom/google/protobuf/AbstractMessage;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v0
+
+    .line 28
+    check-cast v0, Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 29
+    .line 30
+    return-object v0
+
+    .line 31
+    :cond_2
+    invoke-static {}, Lbase/DataBindMechanism$SubscribeToCentralStore;->getDefaultInstance()Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v0
+
+    .line 35
+    return-object v0
+.end method
+
+.method public getCentralStoreBuilder()Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Lbase/DataBindMechanism$Builder;->getCentralStoreFieldBuilder()Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Lcom/google/protobuf/SingleFieldBuilderV3;->getBuilder()Lcom/google/protobuf/AbstractMessage$Builder;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    check-cast v0, Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;
+
+    .line 10
+    .line 11
+    return-object v0
+.end method
+
+.method public getCentralStoreOrBuilder()Lbase/DataBindMechanism$SubscribeToCentralStoreOrBuilder;
+    .locals 3
+
+    .line 1
+    iget v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-ne v0, v1, :cond_0
+
+    .line 5
+    .line 6
+    iget-object v2, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 7
+    .line 8
+    if-eqz v2, :cond_0
+
+    .line 9
+    .line 10
+    invoke-virtual {v2}, Lcom/google/protobuf/SingleFieldBuilderV3;->getMessageOrBuilder()Lcom/google/protobuf/MessageOrBuilder;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    check-cast v0, Lbase/DataBindMechanism$SubscribeToCentralStoreOrBuilder;
+
+    .line 15
+    .line 16
+    return-object v0
+
+    .line 17
+    :cond_0
+    if-ne v0, v1, :cond_1
+
+    .line 18
+    .line 19
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 20
+    .line 21
+    check-cast v0, Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 22
+    .line 23
+    return-object v0
+
+    .line 24
+    :cond_1
+    invoke-static {}, Lbase/DataBindMechanism$SubscribeToCentralStore;->getDefaultInstance()Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v0
+
+    .line 28
+    return-object v0
+.end method
+
+.method public getDataBindMechanismCase()Lbase/DataBindMechanism$DataBindMechanismCase;
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lbase/DataBindMechanism$DataBindMechanismCase;->forNumber(I)Lbase/DataBindMechanism$DataBindMechanismCase;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    return-object v0
+.end method
+
+.method public getDefaultInstanceForType()Lbase/DataBindMechanism;
+    .locals 1
+
+    .line 3
+    invoke-static {}, Lbase/DataBindMechanism;->getDefaultInstance()Lbase/DataBindMechanism;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic getDefaultInstanceForType()Lcom/google/protobuf/Message;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->getDefaultInstanceForType()Lbase/DataBindMechanism;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic getDefaultInstanceForType()Lcom/google/protobuf/MessageLite;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lbase/DataBindMechanism$Builder;->getDefaultInstanceForType()Lbase/DataBindMechanism;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getDescriptorForType()Lcom/google/protobuf/Descriptors$Descriptor;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lbase/DataBindMechanismOuterClass;->a:Lcom/google/protobuf/Descriptors$Descriptor;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public hasCentralStore()Z
+    .locals 2
+
+    .line 1
+    iget v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-ne v0, v1, :cond_0
+
+    .line 5
+    .line 6
+    return v1
+
+    .line 7
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 8
+    return v0
+.end method
+
+.method public internalGetFieldAccessorTable()Lcom/google/protobuf/GeneratedMessageV3$FieldAccessorTable;
+    .locals 3
+
+    .line 1
+    sget-object v0, Lbase/DataBindMechanismOuterClass;->b:Lcom/google/protobuf/GeneratedMessageV3$FieldAccessorTable;
+
+    .line 2
+    .line 3
+    const-class v1, Lbase/DataBindMechanism;
+
+    .line 4
+    .line 5
+    const-class v2, Lbase/DataBindMechanism$Builder;
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, v1, v2}, Lcom/google/protobuf/GeneratedMessageV3$FieldAccessorTable;->ensureFieldAccessorsInitialized(Ljava/lang/Class;Ljava/lang/Class;)Lcom/google/protobuf/GeneratedMessageV3$FieldAccessorTable;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    return-object v0
+.end method
+
+.method public final isInitialized()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public mergeCentralStore(Lbase/DataBindMechanism$SubscribeToCentralStore;)Lbase/DataBindMechanism$Builder;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-nez v0, :cond_1
+
+    .line 5
+    .line 6
+    iget v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 7
+    .line 8
+    if-ne v0, v1, :cond_0
+
+    .line 9
+    .line 10
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 11
+    .line 12
+    invoke-static {}, Lbase/DataBindMechanism$SubscribeToCentralStore;->getDefaultInstance()Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v2
+
+    .line 16
+    if-eq v0, v2, :cond_0
+
+    .line 17
+    .line 18
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 19
+    .line 20
+    check-cast v0, Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 21
+    .line 22
+    invoke-static {v0}, Lbase/DataBindMechanism$SubscribeToCentralStore;->newBuilder(Lbase/DataBindMechanism$SubscribeToCentralStore;)Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    invoke-virtual {v0, p1}, Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;->mergeFrom(Lbase/DataBindMechanism$SubscribeToCentralStore;)Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p1
+
+    .line 30
+    invoke-virtual {p1}, Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;->buildPartial()Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object p1
+
+    .line 34
+    iput-object p1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 35
+    .line 36
+    goto :goto_0
+
+    .line 37
+    :cond_0
+    iput-object p1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 38
+    .line 39
+    :goto_0
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 40
+    .line 41
+    .line 42
+    goto :goto_1
+
+    .line 43
+    :cond_1
+    iget v2, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 44
+    .line 45
+    if-ne v2, v1, :cond_2
+
+    .line 46
+    .line 47
+    invoke-virtual {v0, p1}, Lcom/google/protobuf/SingleFieldBuilderV3;->mergeFrom(Lcom/google/protobuf/AbstractMessage;)Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 48
+    .line 49
+    .line 50
+    :cond_2
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 51
+    .line 52
+    invoke-virtual {v0, p1}, Lcom/google/protobuf/SingleFieldBuilderV3;->setMessage(Lcom/google/protobuf/AbstractMessage;)Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    .line 53
+    .line 54
+    .line 55
+    :goto_1
+    iput v1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    .line 56
+    .line 57
+    return-object p0
+.end method
+
+.method public mergeFrom(Lbase/DataBindMechanism;)Lbase/DataBindMechanism$Builder;
+    .locals 2
+
+    .line 10
+    invoke-static {}, Lbase/DataBindMechanism;->getDefaultInstance()Lbase/DataBindMechanism;
+
+    move-result-object v0
+
+    if-ne p1, v0, :cond_0
+
+    return-object p0
+
+    .line 11
+    :cond_0
+    sget-object v0, Lbase/DataBindMechanism$a;->b:[I
+
+    invoke-virtual {p1}, Lbase/DataBindMechanism;->getDataBindMechanismCase()Lbase/DataBindMechanism$DataBindMechanismCase;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    aget v0, v0, v1
+
+    const/4 v1, 0x1
+
+    if-eq v0, v1, :cond_1
+
+    goto :goto_0
+
+    .line 12
+    :cond_1
+    invoke-virtual {p1}, Lbase/DataBindMechanism;->getCentralStore()Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lbase/DataBindMechanism$Builder;->mergeCentralStore(Lbase/DataBindMechanism$SubscribeToCentralStore;)Lbase/DataBindMechanism$Builder;
+
+    .line 13
+    :goto_0
+    invoke-static {p1}, Lbase/DataBindMechanism;->access$4800(Lbase/DataBindMechanism;)Lcom/google/protobuf/UnknownFieldSet;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lbase/DataBindMechanism$Builder;
+
+    .line 14
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    return-object p0
+.end method
+
+.method public mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lbase/DataBindMechanism$Builder;
+    .locals 2
+
+    const/4 v0, 0x0
+
+    .line 15
+    :try_start_0
+    invoke-static {}, Lbase/DataBindMechanism;->access$4900()Lcom/google/protobuf/Parser;
+
+    move-result-object v1
+
+    invoke-interface {v1, p1, p2}, Lcom/google/protobuf/Parser;->parsePartialFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lbase/DataBindMechanism;
+    :try_end_0
+    .catch Lcom/google/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    if-eqz p1, :cond_0
+
+    .line 16
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->mergeFrom(Lbase/DataBindMechanism;)Lbase/DataBindMechanism$Builder;
+
+    :cond_0
+    return-object p0
+
+    :catchall_0
+    move-exception p1
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p1
+
+    .line 17
+    :try_start_1
+    invoke-virtual {p1}, Lcom/google/protobuf/InvalidProtocolBufferException;->getUnfinishedMessage()Lcom/google/protobuf/MessageLite;
+
+    move-result-object p2
+
+    check-cast p2, Lbase/DataBindMechanism;
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 18
+    :try_start_2
+    invoke-virtual {p1}, Lcom/google/protobuf/InvalidProtocolBufferException;->unwrapIOException()Ljava/io/IOException;
+
+    move-result-object p1
+
+    throw p1
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+
+    :catchall_1
+    move-exception p1
+
+    move-object v0, p2
+
+    :goto_0
+    if-eqz v0, :cond_1
+
+    .line 19
+    invoke-virtual {p0, v0}, Lbase/DataBindMechanism$Builder;->mergeFrom(Lbase/DataBindMechanism;)Lbase/DataBindMechanism$Builder;
+
+    .line 20
+    :cond_1
+    throw p1
+.end method
+
+.method public mergeFrom(Lcom/google/protobuf/Message;)Lbase/DataBindMechanism$Builder;
+    .locals 1
+
+    .line 7
+    instance-of v0, p1, Lbase/DataBindMechanism;
+
+    if-eqz v0, :cond_0
+
+    .line 8
+    check-cast p1, Lbase/DataBindMechanism;
+
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->mergeFrom(Lbase/DataBindMechanism;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 9
+    :cond_0
+    invoke-super {p0, p1}, Lcom/google/protobuf/AbstractMessage$Builder;->mergeFrom(Lcom/google/protobuf/Message;)Lcom/google/protobuf/AbstractMessage$Builder;
+
+    return-object p0
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lbase/DataBindMechanism$Builder;->mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/Message;)Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->mergeFrom(Lcom/google/protobuf/Message;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/AbstractMessageLite$Builder;
+    .locals 0
+
+    .line 3
+    invoke-virtual {p0, p1, p2}, Lbase/DataBindMechanism$Builder;->mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 4
+    invoke-virtual {p0, p1, p2}, Lbase/DataBindMechanism$Builder;->mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/Message;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 5
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->mergeFrom(Lcom/google/protobuf/Message;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/MessageLite$Builder;
+    .locals 0
+
+    .line 6
+    invoke-virtual {p0, p1, p2}, Lbase/DataBindMechanism$Builder;->mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lbase/DataBindMechanism$Builder;
+    .locals 0
+
+    .line 4
+    invoke-super {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    move-result-object p1
+
+    check-cast p1, Lbase/DataBindMechanism$Builder;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 3
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public setCentralStore(Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;)Lbase/DataBindMechanism$Builder;
+    .locals 1
+
+    .line 7
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    if-nez v0, :cond_0
+
+    .line 8
+    invoke-virtual {p1}, Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;->build()Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 9
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    goto :goto_0
+
+    .line 10
+    :cond_0
+    invoke-virtual {p1}, Lbase/DataBindMechanism$SubscribeToCentralStore$Builder;->build()Lbase/DataBindMechanism$SubscribeToCentralStore;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Lcom/google/protobuf/SingleFieldBuilderV3;->setMessage(Lcom/google/protobuf/AbstractMessage;)Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    :goto_0
+    const/4 p1, 0x1
+
+    .line 11
+    iput p1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    return-object p0
+.end method
+
+.method public setCentralStore(Lbase/DataBindMechanism$SubscribeToCentralStore;)Lbase/DataBindMechanism$Builder;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbase/DataBindMechanism$Builder;->centralStoreBuilder_:Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    if-nez v0, :cond_0
+
+    .line 2
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 3
+    iput-object p1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanism_:Ljava/lang/Object;
+
+    .line 4
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    goto :goto_0
+
+    .line 5
+    :cond_0
+    invoke-virtual {v0, p1}, Lcom/google/protobuf/SingleFieldBuilderV3;->setMessage(Lcom/google/protobuf/AbstractMessage;)Lcom/google/protobuf/SingleFieldBuilderV3;
+
+    :goto_0
+    const/4 p1, 0x1
+
+    .line 6
+    iput p1, p0, Lbase/DataBindMechanism$Builder;->dataBindMechanismCase_:I
+
+    return-object p0
+.end method
+
+.method public setField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lbase/DataBindMechanism$Builder;
+    .locals 0
+
+    .line 3
+    invoke-super {p0, p1, p2}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->setField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    move-result-object p1
+
+    check-cast p1, Lbase/DataBindMechanism$Builder;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lbase/DataBindMechanism$Builder;->setField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1, p2}, Lbase/DataBindMechanism$Builder;->setField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public setRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lbase/DataBindMechanism$Builder;
+    .locals 0
+
+    .line 3
+    invoke-super {p0, p1, p2, p3}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->setRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    move-result-object p1
+
+    check-cast p1, Lbase/DataBindMechanism$Builder;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2, p3}, Lbase/DataBindMechanism$Builder;->setRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1, p2, p3}, Lbase/DataBindMechanism$Builder;->setRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final setUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lbase/DataBindMechanism$Builder;
+    .locals 0
+
+    .line 3
+    invoke-super {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->setUnknownFieldsProto3(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    move-result-object p1
+
+    check-cast p1, Lbase/DataBindMechanism$Builder;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->setUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lbase/DataBindMechanism$Builder;->setUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lbase/DataBindMechanism$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method

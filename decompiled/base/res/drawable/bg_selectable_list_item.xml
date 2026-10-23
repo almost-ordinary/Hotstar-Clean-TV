@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/tab_button_border_radius" />
+            <solid android:color="@color/transparent" />
+            <stroke android:width="@dimen/space_01" android:color="@color/panther_grey_03" />
+        </shape>
+    </item>
+    <item android:left="@dimen/space_01" android:top="@dimen/space_01" android:right="@dimen/space_01" android:bottom="@dimen/space_01">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/background_surface_alt_2" />
+            <corners android:radius="@dimen/tab_button_border_radius_2" />
+            <stroke android:width="@dimen/space_01" android:color="@color/transparent" />
+        </shape>
+    </item>
+</layer-list>

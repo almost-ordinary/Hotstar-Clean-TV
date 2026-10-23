@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hotstar.widget.autoscrollbackground.AutoscrollBackgroundWidget android:id="@id/rv_auto_scroll_bg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_12" android:layout_marginStart="@dimen/qr_payment_method_space_13" android:layout_marginEnd="@dimen/qr_payment_method_space_12">
+        <ImageView android:id="@id/iv_logo" android:layout_width="@dimen/qr_payment_method_space_15" android:layout_height="@dimen/qr_payment_method_space_14" android:scaleType="fitStart" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:id="@id/plan_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_medium" />
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_03" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_03">
+            <com.hotstar.core.commonui.molecules.HSTextView android:id="@id/plan_price" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/H6" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:id="@id/plan_price_original" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/qr_payment_method_space_03" android:alpha="@dimen/qr_payment_method_alpha" style="@style/Body1.Medium" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/price_deduction_details_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_03" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/plan_offer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_03">
+            <com.hotstar.core.commonui.molecules.HSTextView android:gravity="top" android:id="@id/plan_offer_icon" android:layout_width="@dimen/icon_size_06" android:layout_height="@dimen/icon_size_06" android:layout_marginTop="3.0dp" android:fontFamily="@font/soul_icons" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:id="@id/plan_offer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/qr_payment_method_space_04" style="@style/Body3.Medium" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_03">
+            <com.hotstar.core.commonui.molecules.HSTextView android:gravity="top" android:layout_width="@dimen/icon_size_06" android:layout_height="@dimen/icon_size_06" android:layout_marginTop="3.0dp" android:text="@string/icon_info" android:fontFamily="@font/soul_icons" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:id="@id/plan_validity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="@dimen/qr_payment_method_alpha" android:layout_marginStart="@dimen/qr_payment_method_space_04" style="@style/Body3.Medium" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/extra_pack_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_03" />
+        <View android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <com.hotstar.widget.buttonstack.ButtonStackWidget android:id="@id/button_stack" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

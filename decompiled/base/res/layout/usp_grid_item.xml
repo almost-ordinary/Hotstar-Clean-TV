@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/usp_grid_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.core.commonui.molecules.HSTrayItemImageView android:id="@id/iv_usp_image" android:layout_width="44.0dp" android:layout_height="44.0dp" android:layout_marginTop="32.0dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textSize="16.0sp" android:textColor="?on_surface_default" android:gravity="center" android:id="@id/tv_usp_description" android:layout_width="120.0dp" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+</merge>

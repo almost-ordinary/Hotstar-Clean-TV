@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/panther_grey_01" android:layout_width="match_parent" android:layout_height="@dimen/qr_payment_method_one_dp" android:layout_marginTop="@dimen/qr_payment_method_space_12" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_09" android:layout_marginStart="@dimen/qr_payment_method_space_12">
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_08" android:id="@id/payment_method_info_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Title1" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_08" android:id="@id/payment_method_info_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_06" android:layout_marginEnd="@dimen/qr_payment_method_space_14" style="@style/Body1.Medium" />
+    </LinearLayout>
+</merge>

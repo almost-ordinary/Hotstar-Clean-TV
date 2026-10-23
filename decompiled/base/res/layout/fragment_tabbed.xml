@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_container" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_draggable="false" app:behavior_hideable="false" app:behavior_peekHeight="@dimen/tabbed_tray_peek_height" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <View android:id="@id/fake_focus_catcher" android:layout_width="1.0dp" android:layout_height="1.0dp" app:layout_constraintStart_toStartOf="@id/tabs_container" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.leanback.widget.BrowseFrameLayout android:id="@id/tabs_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/tabbed_tray_tab_start_margin" app:layout_constraintTop_toTopOf="parent">
+            <androidx.leanback.widget.HorizontalGridView android:id="@id/hgv_tabs" android:layout_width="match_parent" android:layout_height="@dimen/tabbed_tray_tab_container_height" />
+        </androidx.leanback.widget.BrowseFrameLayout>
+        <View android:id="@id/v_divider" android:background="?background_surface_alt_2" android:layout_width="match_parent" android:layout_height="@dimen/space_01" android:alpha="0.0" android:layout_marginStart="@dimen/space_18" android:layout_marginEnd="@dimen/space_18" app:layout_constraintTop_toBottomOf="@id/tabs_container" />
+        <androidx.leanback.widget.BrowseFrameLayout android:id="@id/content_container" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginBottom="20.0dp" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/v_divider">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/vp_content" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.leanback.widget.BrowseFrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,26 @@
+.class public interface abstract Lcom/hotstar/ui/model/action/FormInputActionOrBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# virtual methods
+.method public abstract getFormContext()Lcontext/FormContext;
+.end method
+
+.method public abstract getFormContextOrBuilder()Lcontext/FormContextOrBuilder;
+.end method
+
+.method public abstract getFormInput()Lcom/hotstar/ui/model/feature/form/FormInput;
+.end method
+
+.method public abstract getFormInputOrBuilder()Lcom/hotstar/ui/model/feature/form/FormInputOrBuilder;
+.end method
+
+.method public abstract hasFormContext()Z
+.end method
+
+.method public abstract hasFormInput()Z
+.end method

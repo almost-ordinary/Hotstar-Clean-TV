@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="63.0dp" android:width="302.0dp" />
+            <stroke android:width="0.5dp" android:color="@color/on_image_alt_2" />
+            <gradient android:startColor="@color/panther_grey_08" android:endColor="@color/panther_grey_08" android:angle="0.0" android:type="linear" />
+            <corners android:radius="@dimen/icon_size_01" />
+        </shape>
+    </item>
+</layer-list>

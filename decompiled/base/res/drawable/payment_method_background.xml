@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/background_inverse_alt" />
+    <corners android:topLeftRadius="6.0dp" android:topRightRadius="6.0dp" />
+</shape>

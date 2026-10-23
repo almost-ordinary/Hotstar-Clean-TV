@@ -1,0 +1,14 @@
+.class public Lcom/hotstar/csai/exception/AdFetchException$AdPeriodFetchException;
+.super Lcom/hotstar/csai/exception/AdFetchException;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/hotstar/csai/exception/AdFetchException;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "AdPeriodFetchException"
+.end annotation

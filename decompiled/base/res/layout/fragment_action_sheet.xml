@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_actionsheet" android:background="?background_gradient_brand_alt2" android:paddingTop="40.0dp" android:paddingBottom="38.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_actionsheet" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/pb_main" android:layout_width="42.0dp" android:layout_height="42.0dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="?loader" />
+</FrameLayout>

@@ -1,0 +1,66 @@
+.class public interface abstract Lcom/hotstar/ui/model/widget/ProfilesWidget$DataOrBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/hotstar/ui/model/widget/ProfilesWidget;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "DataOrBuilder"
+.end annotation
+
+
+# virtual methods
+.method public abstract getEditButton()Lcom/hotstar/ui/model/widget/ProfilesWidget$EditButton;
+.end method
+
+.method public abstract getEditButtonOrBuilder()Lcom/hotstar/ui/model/widget/ProfilesWidget$EditButtonOrBuilder;
+.end method
+
+.method public abstract getProfiles(I)Lcom/hotstar/ui/model/widget/ProfilesWidget$Profile;
+.end method
+
+.method public abstract getProfilesCount()I
+.end method
+
+.method public abstract getProfilesList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/hotstar/ui/model/widget/ProfilesWidget$Profile;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getProfilesOrBuilder(I)Lcom/hotstar/ui/model/widget/ProfilesWidget$ProfileOrBuilder;
+.end method
+
+.method public abstract getProfilesOrBuilderList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "+",
+            "Lcom/hotstar/ui/model/widget/ProfilesWidget$ProfileOrBuilder;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getTitle()Ljava/lang/String;
+.end method
+
+.method public abstract getTitleBytes()Lcom/google/protobuf/ByteString;
+.end method
+
+.method public abstract hasEditButton()Z
+.end method

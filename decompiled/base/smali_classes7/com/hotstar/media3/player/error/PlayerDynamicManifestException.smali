@@ -1,0 +1,45 @@
+.class public final Lcom/hotstar/media3/player/error/PlayerDynamicManifestException;
+.super Lcom/hotstar/media3/player/error/HSPlayerException;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001\u00a8\u0006\u0002"
+    }
+    d2 = {
+        "Lcom/hotstar/media3/player/error/PlayerDynamicManifestException;",
+        "Lcom/hotstar/media3/player/error/HSPlayerException;",
+        "media3-player-common_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final b:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Lcom/hotstar/player/dynamicmanifest/DynamicManifestException;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p2, p3}, Lcom/hotstar/media3/player/error/HSPlayerException;-><init>(Ljava/lang/Throwable;Ljava/lang/String;)V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/hotstar/media3/player/error/PlayerDynamicManifestException;->b:Ljava/lang/String;
+
+    .line 5
+    .line 6
+    return-void
+.end method

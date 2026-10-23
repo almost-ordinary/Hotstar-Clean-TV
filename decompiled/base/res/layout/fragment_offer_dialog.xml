@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="?background_surface_default" android:layout_width="304.0dp" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start" android:id="@id/offer_image" android:visibility="gone" android:layout_width="@dimen/space_14" android:layout_height="@dimen/space_14" android:layout_marginTop="60.0dp" android:adjustViewBounds="true" android:layout_marginStart="@dimen/space_13" android:layout_marginEnd="@dimen/space_13" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:id="@id/offer_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_07" android:layout_marginStart="@dimen/space_13" android:layout_marginEnd="@dimen/space_13" style="@style/Title1" />
+    <LinearLayout android:orientation="vertical" android:id="@id/offer_subtitle_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_08" android:layout_marginStart="@dimen/space_13" android:layout_marginEnd="@dimen/space_13" />
+</LinearLayout>

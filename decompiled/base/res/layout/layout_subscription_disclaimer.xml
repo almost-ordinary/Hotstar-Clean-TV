@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_firetv" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.hotstar.widget.autoscrollbackground.AutoscrollBackgroundWidget android:id="@id/rv_auto_scroll_bg" android:layout_width="wrap_content" android:layout_height="match_parent" />
+            <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="end|center" android:id="@id/iv_qr_code" android:visibility="gone" android:layout_width="232.0dp" android:layout_height="232.0dp" android:layout_marginEnd="@dimen/space_07" app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize12dp" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/space_14" android:layout_marginEnd="@dimen/space_22">
+            <LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_disney_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="Disney+ Logo" />
+                <View android:id="@id/divider_partner_logo" android:background="@color/panther_grey_04" android:visibility="gone" android:layout_width="1.0dp" android:layout_height="match_parent" android:alpha="0.4" android:layout_marginStart="@dimen/space_08" android:layout_marginEnd="@dimen/space_08" />
+                <ImageView android:layout_gravity="bottom" android:id="@id/iv_partner_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="43.0dp" android:adjustViewBounds="true" android:maxWidth="90.0dp" android:contentDescription="Partner Logo" />
+            </LinearLayout>
+            <com.hotstar.core.commonui.molecules.HSTextView android:textSize="24.0sp" android:textColor="?background_inverse" android:layout_gravity="start" android:id="@id/tv_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_10" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:textSize="16.0sp" android:textColor="?on_surface_alt_2" android:layout_gravity="start" android:id="@id/tv_paragraph" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_07" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:layout_gravity="start" android:id="@id/tv_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_08" style="@style/Body2.Medium" />
+            <com.hotstar.core.commonui.molecules.HSButtonSubtle android:layout_gravity="start" android:id="@id/btn_secondary" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="292.0dp" android:layout_height="@dimen/space_12" android:layout_marginTop="@dimen/space_09" />
+            <com.hotstar.core.commonui.molecules.HSButtonSubtle android:layout_gravity="start" android:id="@id/btn_primary" android:visibility="gone" android:layout_width="292.0dp" android:layout_height="@dimen/space_12" android:layout_marginTop="@dimen/space_08" app:textLabel="Check Subscription Status" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

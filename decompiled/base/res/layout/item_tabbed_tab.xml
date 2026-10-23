@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/space_07"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/fake_height" android:layout_width="wrap_content" android:layout_height="@dimen/tabbed_tray_tab_container_height" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.hotstar.core.commonui.molecules.HSTabButton android:id="@id/tab_button" android:layout_width="wrap_content" android:layout_height="@dimen/tab_button_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tb_autoselect="true" app:tb_group_id="@integer/tabbed_space_tab_group_id" />
+</androidx.constraintlayout.widget.ConstraintLayout>

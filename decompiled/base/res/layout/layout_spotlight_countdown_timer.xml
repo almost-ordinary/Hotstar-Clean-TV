@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.widget.spotlight.gec.tag.ImageTagView android:id="@id/iv_title" android:layout_width="wrap_content" android:layout_height="@dimen/spotlight_tag_height" android:adjustViewBounds="true" android:contentDescription="@null" />
+    <Space android:layout_width="@dimen/space_03" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tv_timer" android:layout_width="wrap_content" android:layout_height="@dimen/spotlight_tag_height" android:layoutDirection="ltr">
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_default" android:id="@id/tv_timer_hh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/text_tag_bottom_margin" android:layout_marginEnd="@dimen/text_tag_bottom_margin" style="@style/Caption1.SemiBold" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_default" android:id="@id/tv_timer_mm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/text_tag_bottom_margin" android:layout_marginEnd="@dimen/text_tag_bottom_margin" style="@style/Caption1.SemiBold" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_default" android:id="@id/tv_timer_ss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/text_tag_bottom_margin" android:layout_marginEnd="@dimen/text_tag_bottom_margin" style="@style/Caption1.SemiBold" />
+    </LinearLayout>
+</merge>

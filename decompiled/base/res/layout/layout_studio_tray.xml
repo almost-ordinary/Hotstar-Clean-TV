@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotstar.widget.studio.StudioTrayItemView android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="@dimen/studio_tray_default_width" android:layout_height="@dimen/studio_tray_default_height" app:layout_constraintDimensionRatio="H,16:9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/player_view" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_margin="@dimen/tray_image_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.hotstar.core.commonui.molecules.HSTrayItemImageView android:id="@id/iv_studio" android:duplicateParentState="true" android:layout_width="0.0dp" android:layout_height="0.0dp" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tiiv_enable_animation="true" />
+</com.hotstar.widget.studio.StudioTrayItemView>

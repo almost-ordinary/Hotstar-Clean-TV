@@ -1,0 +1,225 @@
+.class public final Lcl/L$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LRk/f;
+.implements LTk/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcl/L;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "LRk/f<",
+        "TT;>;",
+        "LTk/b;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:LRk/q;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LRk/q<",
+            "-TT;>;"
+        }
+    .end annotation
+.end field
+
+.field public b:Len/b;
+
+
+# direct methods
+.method public constructor <init>(LRk/q;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LRk/q<",
+            "-TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcl/L$a;->a:LRk/q;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final dispose()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcl/L$a;->b:Len/b;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Len/b;->cancel()V
+
+    .line 4
+    .line 5
+    .line 6
+    sget-object v0, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->a:Lio/reactivex/internal/subscriptions/SubscriptionHelper;
+
+    .line 7
+    .line 8
+    iput-object v0, p0, Lcl/L$a;->b:Len/b;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+.method public final g(Len/b;)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcl/L$a;->b:Len/b;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->g(Len/b;Len/b;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    iput-object p1, p0, Lcl/L$a;->b:Len/b;
+
+    .line 10
+    .line 11
+    iget-object v0, p0, Lcl/L$a;->a:LRk/q;
+
+    .line 12
+    .line 13
+    invoke-interface {v0, p0}, LRk/q;->onSubscribe(LTk/b;)V
+
+    .line 14
+    .line 15
+    .line 16
+    const-wide v0, 0x7fffffffffffffffL
+
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    invoke-interface {p1, v0, v1}, Len/b;->request(J)V
+
+    .line 22
+    .line 23
+    .line 24
+    :cond_0
+    return-void
+.end method
+
+.method public final isDisposed()Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcl/L$a;->b:Len/b;
+
+    .line 2
+    .line 3
+    sget-object v1, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->a:Lio/reactivex/internal/subscriptions/SubscriptionHelper;
+
+    .line 4
+    .line 5
+    if-ne v0, v1, :cond_0
+
+    .line 6
+    .line 7
+    const/4 v0, 0x1
+
+    .line 8
+    return v0
+
+    .line 9
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 10
+    return v0
+.end method
+
+.method public final onComplete()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcl/L$a;->a:LRk/q;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, LRk/q;->onComplete()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public final onError(Ljava/lang/Throwable;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcl/L$a;->a:LRk/q;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1}, LRk/q;->onError(Ljava/lang/Throwable;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public final onNext(Ljava/lang/Object;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcl/L$a;->a:LRk/q;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1}, LRk/q;->onNext(Ljava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

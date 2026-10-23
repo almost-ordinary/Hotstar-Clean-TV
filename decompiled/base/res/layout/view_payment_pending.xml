@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_payment_error" android:layout_width="195.0dp" android:layout_height="110.0dp" app:srcCompat="?ic_payment_error" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textSize="24.0sp" android:textColor="?on_surface_default" android:gravity="center" android:layout_gravity="center" android:id="@id/payment_pending_title" android:layout_width="360.0dp" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:maxLines="2" style="@style/H5" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textSize="14.0sp" android:textColor="?on_surface_alt_2" android:id="@id/payment_pending_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_07" style="@style/Body1.Regular" />
+    <com.hotstar.core.commonui.molecules.HSButton android:id="@id/payment_pending_primary_cta" android:visibility="gone" android:layout_width="292.0dp" android:layout_height="36.0dp" android:layout_marginTop="20.0dp" app:textLabel="Retry Payment" />
+    <com.hotstar.core.commonui.molecules.HSButtonSubtle android:id="@id/payment_pending_secondary_cta" android:layout_width="292.0dp" android:layout_height="36.0dp" android:layout_marginTop="20.0dp" app:textLabel="I have Paid" />
+</androidx.appcompat.widget.LinearLayoutCompat>

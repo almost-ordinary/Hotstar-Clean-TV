@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:layout_gravity="start" android:orientation="vertical" android:id="@id/plan_card_usp_layout" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="12.0dp" android:layout_height="68.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.core.commonui.molecules.HSTrayItemImageView android:layout_gravity="start" android:id="@id/curr_plan_usp_img" android:layout_width="54.0dp" android:layout_height="20.0dp" android:scaleType="fitStart" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/white_84A" android:gravity="start" android:layout_gravity="start" android:id="@id/curr_plan_usp_desc" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:textDirection="locale" android:textAlignment="gravity" style="@style/Body4.Regular" />
+</LinearLayout>

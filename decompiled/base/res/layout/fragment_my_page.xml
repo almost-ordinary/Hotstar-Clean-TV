@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?background_gradient_brand_alt2" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.leanback.widget.BrowseFrameLayout android:id="@id/membership_summary_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@id/lt_membership_summary_widget" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_membership_summary_widget" />
+        </androidx.leanback.widget.BrowseFrameLayout>
+        <View android:id="@id/divider" android:background="@drawable/divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="@dimen/space_10" android:alpha="0.3" android:layout_marginStart="@dimen/space_20" android:layout_marginEnd="@dimen/space_16" />
+        <androidx.leanback.widget.BrowseFrameLayout android:id="@id/my_space_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.fragment.app.FragmentContainerView android:name="com.hotstar.pages.mepage.profile.MySpaceProfileFragment" android:id="@id/fragment_my_space" android:layout_width="match_parent" android:layout_height="260.0dp" />
+        </androidx.leanback.widget.BrowseFrameLayout>
+        <androidx.leanback.widget.BrowseFrameLayout android:id="@id/comm_banner_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_07" android:layout_marginBottom="@dimen/space_07" android:layout_marginStart="@dimen/space_18" android:layout_marginEnd="@dimen/space_13">
+            <com.hotstar.widget.commnbanner.CommnBannnerWidget android:id="@id/comm_banner_widget" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </androidx.leanback.widget.BrowseFrameLayout>
+    </LinearLayout>
+    <View android:id="@id/tabbed_background" android:background="@color/panther_grey_10" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/tabbed_space" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/fl_container" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/pb_main" android:layout_width="42.0dp" android:layout_height="42.0dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="?loader" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:id="@id/widget_item_text_list"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.core.commonui.molecules.HSTextView android:textSize="24.0sp" android:textColor="?on_image_alt" android:id="@id/tv_callout_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/soul_icons" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_alt" android:layout_gravity="fill" android:id="@id/tv_callout" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_05" android:layout_weight="1.0" style="@style/Body3.Regular" />
+</merge>

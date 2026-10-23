@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/watch_intro_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/watch_intro" android:visibility="gone" android:layout_width="@dimen/binge_button_width" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/space_10" />
+            <com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/skip_intro" android:visibility="gone" android:layout_width="@dimen/binge_button_width" android:layout_height="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/watch_recap_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/watch_recap" android:visibility="gone" android:layout_width="@dimen/binge_button_width" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/space_10" />
+            <com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/skip_recap" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/binge_button_width" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/watch_credits_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/binge_button_bottom_margin_down">
+            <com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/watch_credits" android:visibility="gone" android:layout_width="@dimen/binge_button_width" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/watch_credits_right_margin" />
+            <com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/next_content" android:visibility="gone" android:layout_width="@dimen/binge_button_width" android:layout_height="wrap_content" app:iconStart="@string/icon_next_fill" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</merge>

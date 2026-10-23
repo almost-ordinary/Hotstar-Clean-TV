@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="364.0dp" android:width="364.0dp" android:viewportWidth="364.0" android:viewportHeight="364.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffffff" android:pathData="M10,1L354,1A9,9 0,0 1,363 10L363,354A9,9 0,0 1,354 363L10,363A9,9 0,0 1,1 354L1,10A9,9 0,0 1,10 1z" android:strokeColor="@drawable/$bg_payment_method_qr__0" android:strokeWidth="2.0" />
+</vector>

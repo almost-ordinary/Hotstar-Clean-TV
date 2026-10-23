@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="25.0dp" android:width="25.0dp" android:viewportWidth="25.0" android:viewportHeight="25.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0.5,0.5h24v24h-24z" />
+        <path android:fillColor="@drawable/$checkmark_concentric_cirlces__0" android:pathData="M12.5,12.5m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" android:strokeAlpha="0.1" android:fillAlpha="0.1" />
+        <path android:fillColor="@drawable/$checkmark_concentric_cirlces__1" android:pathData="M12.5,12.5m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" android:strokeAlpha="0.1" android:fillAlpha="0.1" />
+        <path android:fillColor="@drawable/$checkmark_concentric_cirlces__2" android:pathData="M12.5,12.5m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+        <path android:fillColor="@drawable/$checkmark_concentric_cirlces__3" android:pathData="M12.5,12.5m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+        <path android:fillColor="@drawable/$checkmark_concentric_cirlces__4" android:pathData="M12.5,12.5m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+        <path android:fillColor="@drawable/$checkmark_concentric_cirlces__5" android:pathData="M12.5,12.5m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+        <path android:fillColor="#ffeaf7" android:pathData="M11.376,15.5C11.368,15.5 11.359,15.5 11.351,15.5C11.139,15.493 10.941,15.406 10.807,15.261L8.685,12.964C8.44,12.699 8.431,12.301 8.703,12.058C9.016,11.779 9.522,11.806 9.796,12.103L11.326,13.758C11.373,13.809 11.459,13.811 11.51,13.764L15.266,10.226C15.53,9.976 15.973,9.919 16.278,10.128C16.629,10.369 16.662,10.82 16.366,11.099L11.911,15.295C11.772,15.426 11.578,15.5 11.376,15.5" android:fillType="evenOdd" />
+    </group>
+</vector>

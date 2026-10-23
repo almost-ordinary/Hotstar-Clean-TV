@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_arrow" android:layout_width="@dimen/tooltip_arrow_width" android:layout_height="@dimen/tooltip_arrow_height" android:src="@drawable/ic_beak" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:background="@drawable/background_tooltip" android:paddingLeft="10.0dp" android:paddingTop="5.0dp" android:paddingRight="10.0dp" android:paddingBottom="5.0dp" android:focusable="false" android:focusableInTouchMode="false" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="278.0dp" android:width="1452.0dp" android:autoMirrored="true" android:viewportWidth="1452.0" android:viewportHeight="278.0"
+  xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$bg_plancard_premium__0" android:pathData="M24,0.5L1428,0.5A23.5,23.5 0,0 1,1451.5 24L1451.5,254A23.5,23.5 0,0 1,1428 277.5L24,277.5A23.5,23.5 0,0 1,0.5 254L0.5,24A23.5,23.5 0,0 1,24 0.5z" />
+    <path android:fillColor="#00000000" android:pathData="M24,0.5L1428,0.5A23.5,23.5 0,0 1,1451.5 24L1451.5,254A23.5,23.5 0,0 1,1428 277.5L24,277.5A23.5,23.5 0,0 1,0.5 254L0.5,24A23.5,23.5 0,0 1,24 0.5z" android:strokeColor="@drawable/$bg_plancard_premium__1" android:strokeWidth="1.0" />
+</vector>

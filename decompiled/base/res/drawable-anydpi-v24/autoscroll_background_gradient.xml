@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="984.0dp" android:width="731.0dp" android:viewportWidth="731.0" android:viewportHeight="984.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$autoscroll_background_gradient__0" android:pathData="M731,0L731,983.999H-0L-0,0L731,0Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$autoscroll_background_gradient__1" android:pathData="M0,984l731,-0l0,-984l-731,-0z" />
+</vector>

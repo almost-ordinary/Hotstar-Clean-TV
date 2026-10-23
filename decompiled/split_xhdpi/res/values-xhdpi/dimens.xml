@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="maturity_rating_vertical_line_margin_start">17.0px</dimen>
+</resources>

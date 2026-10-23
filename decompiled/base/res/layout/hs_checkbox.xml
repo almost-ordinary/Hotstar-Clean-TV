@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.core.commonui.molecules.HSCheckbox android:layout_gravity="center" android:id="@id/checkbox" android:layout_width="12.0dp" android:layout_height="12.0dp" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:id="@id/textview" android:layout_width="149.0dp" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" android:textAlignment="viewStart" android:layout_marginStart="12.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

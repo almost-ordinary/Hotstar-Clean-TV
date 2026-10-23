@@ -1,0 +1,52 @@
+{
+    "apkm_version": 5,
+    "apk_title": "Disney+ (Android TV) 26.06.22.3 (arm64-v8a + arm-v7a) (320dpi) (Android 5.0+)",
+    "app_name": "Disney+ (Android TV)",
+    "release_version": "26.06.22.3",
+    "variant": "(arm64-v8a + arm-v7a) (320dpi) (Android 5.0+)",
+    "release_title": "Disney+ (Android TV) 26.06.22.3 (arm64-v8a + arm-v7a) (320dpi) (Android 5.0+)",
+    "versioncode": "4577",
+    "pname": "in.startv.hotstar.dplus.tv",
+    "post_date": "2026-07-06 11:07:46",
+    "capabilities": [
+        "leanback",
+        "leanback_standalone"
+    ],
+    "languages": [
+        "ar",
+        "de",
+        "en",
+        "es",
+        "et",
+        "fi",
+        "fr",
+        "hi",
+        "hu",
+        "in",
+        "it",
+        "ja",
+        "ko",
+        "ms",
+        "nl",
+        "pl",
+        "pt",
+        "ru",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+    ],
+    "arches": [
+        "arm64-v8a",
+        "armeabi-v7a"
+    ],
+    "dpis": [
+        "320"
+    ],
+    "min_api": "21",
+    "accent_color": "002030",
+    "apk_id": 14648355,
+    "release_id": 14648357
+}

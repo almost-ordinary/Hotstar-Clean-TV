@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_usp_multi_family" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hotstar.core.commonui.molecules.HSTextView android:textSize="14.0sp" android:textColor="@color/panther_grey_02" android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textSize="10.0sp" android:textColor="?on_surface_alt_2" android:id="@id/subHeading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_02" />
+    </LinearLayout>
+</merge>

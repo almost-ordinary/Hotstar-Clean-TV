@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/next_key_moment_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/binge_button_bottom_margin_down" android:layout_marginEnd="@dimen/binge_button_right_margin" app:layout_constraintBottom_toTopOf="@id/bottom_space" app:layout_constraintEnd_toEndOf="parent">
+        <com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/key_moment_go_live" android:visibility="gone" android:layout_width="@dimen/binge_button_width" android:layout_height="wrap_content" android:layout_marginStart="@dimen/watch_credits_right_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/watch_next_moment" />
+        <com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/watch_next_moment" android:visibility="gone" android:layout_width="@dimen/binge_button_width" android:layout_height="wrap_content" app:iconStart="@string/icon_next_fill" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:useProgressBackground="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Space android:id="@id/bottom_space" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

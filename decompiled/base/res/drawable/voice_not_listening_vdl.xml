@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" android:drawable="@drawable/ic_voice_search_vdl" />
+    <item android:state_focused="true">
+        <layer-list>
+            <item android:drawable="@drawable/ic_voice_search_vdl" />
+            <item android:drawable="@drawable/ic_microphone_background" />
+            <item>
+                <shape android:shape="oval">
+                    <stroke android:width="4.0dp" android:color="#ffffff" />
+                    <size android:height="88.0dp" android:width="88.0dp" />
+                    <corners android:radius="180.0dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

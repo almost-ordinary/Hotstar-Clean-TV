@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/space_12" android:layout_marginTop="@dimen/space_09" android:layout_marginRight="@dimen/space_12" android:layout_marginBottom="@dimen/space_09"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_08" android:id="@id/tv_pay_link_widget_title" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Title1" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_08" android:id="@id/tv_pay_link_widget_sub_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_pay_link_widget_title" style="@style/Body1.Regular" />
+</androidx.constraintlayout.widget.ConstraintLayout>

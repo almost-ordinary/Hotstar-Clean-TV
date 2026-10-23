@@ -1,0 +1,1879 @@
+.class public final Lcom/google/android/gms/internal/pal/H2;
+.super Lcom/google/android/gms/internal/pal/I2;
+.source "SourceFile"
+
+
+# instance fields
+.field public final N:[B
+
+.field public final O:I
+
+.field public P:I
+
+
+# direct methods
+.method public constructor <init>(I[B)V
+    .locals 4
+
+    .line 1
+    const/16 v0, 0xa
+
+    .line 2
+    .line 3
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/pal/z;-><init>(I)V
+
+    .line 4
+    .line 5
+    .line 6
+    array-length v0, p2
+
+    .line 7
+    sub-int v1, v0, p1
+
+    .line 8
+    .line 9
+    or-int/2addr v1, p1
+
+    .line 10
+    const/4 v2, 0x0
+
+    .line 11
+    if-ltz v1, :cond_0
+
+    .line 12
+    .line 13
+    iput-object p2, p0, Lcom/google/android/gms/internal/pal/H2;->N:[B
+
+    .line 14
+    .line 15
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 16
+    .line 17
+    iput p1, p0, Lcom/google/android/gms/internal/pal/H2;->O:I
+
+    .line 18
+    .line 19
+    return-void
+
+    .line 20
+    :cond_0
+    new-instance p2, Ljava/lang/IllegalArgumentException;
+
+    .line 21
+    .line 22
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v1
+
+    .line 30
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object p1
+
+    .line 34
+    const/4 v3, 0x3
+
+    .line 35
+    new-array v3, v3, [Ljava/lang/Object;
+
+    .line 36
+    .line 37
+    aput-object v0, v3, v2
+
+    .line 38
+    .line 39
+    const/4 v0, 0x1
+
+    .line 40
+    aput-object v1, v3, v0
+
+    .line 41
+    .line 42
+    const/4 v0, 0x2
+
+    .line 43
+    aput-object p1, v3, v0
+
+    .line 44
+    .line 45
+    const-string p1, "Array range is invalid. Buffer.length=%d, offset=%d, length=%d"
+
+    .line 46
+    .line 47
+    invoke-static {p1, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object p1
+
+    .line 51
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    .line 52
+    .line 53
+    .line 54
+    throw p2
+.end method
+
+
+# virtual methods
+.method public final A(ILcom/google/android/gms/internal/pal/zzaol;)V
+    .locals 0
+
+    .line 1
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 2
+    .line 3
+    or-int/lit8 p1, p1, 0x2
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p2}, Lcom/google/android/gms/internal/pal/zzaol;->o()I
+
+    .line 9
+    .line 10
+    .line 11
+    move-result p1
+
+    .line 12
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {p2, p0}, Lcom/google/android/gms/internal/pal/zzaol;->C(Lcom/google/android/gms/internal/pal/z;)V
+
+    .line 16
+    .line 17
+    .line 18
+    return-void
+.end method
+
+.method public final B(II)V
+    .locals 0
+
+    .line 1
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 2
+    .line 3
+    or-int/lit8 p1, p1, 0x5
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/pal/H2;->C(I)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+.method public final C(I)V
+    .locals 7
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lcom/google/android/gms/internal/pal/H2;->N:[B
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 4
+    .line 5
+    add-int/lit8 v2, v1, 0x1
+
+    .line 6
+    .line 7
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 8
+    .line 9
+    and-int/lit16 v3, p1, 0xff
+
+    .line 10
+    .line 11
+    int-to-byte v3, v3
+
+    .line 12
+    aput-byte v3, v0, v1
+
+    .line 13
+    .line 14
+    add-int/lit8 v3, v1, 0x2
+
+    .line 15
+    .line 16
+    iput v3, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 17
+    .line 18
+    shr-int/lit8 v4, p1, 0x8
+
+    .line 19
+    .line 20
+    and-int/lit16 v4, v4, 0xff
+
+    .line 21
+    .line 22
+    int-to-byte v4, v4
+
+    .line 23
+    aput-byte v4, v0, v2
+
+    .line 24
+    .line 25
+    add-int/lit8 v2, v1, 0x3
+
+    .line 26
+    .line 27
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 28
+    .line 29
+    shr-int/lit8 v4, p1, 0x10
+
+    .line 30
+    .line 31
+    and-int/lit16 v4, v4, 0xff
+
+    .line 32
+    .line 33
+    int-to-byte v4, v4
+
+    .line 34
+    aput-byte v4, v0, v3
+
+    .line 35
+    .line 36
+    add-int/lit8 v1, v1, 0x4
+
+    .line 37
+    .line 38
+    iput v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 39
+    .line 40
+    shr-int/lit8 p1, p1, 0x18
+
+    .line 41
+    .line 42
+    and-int/lit16 p1, p1, 0xff
+
+    .line 43
+    .line 44
+    int-to-byte p1, p1
+
+    .line 45
+    aput-byte p1, v0, v2
+    :try_end_0
+    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 46
+    .line 47
+    return-void
+
+    .line 48
+    :catch_0
+    move-exception p1
+
+    .line 49
+    new-instance v0, Lcom/google/android/gms/internal/pal/zzaow;
+
+    .line 50
+    .line 51
+    iget v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 52
+    .line 53
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 54
+    .line 55
+    .line 56
+    move-result-object v1
+
+    .line 57
+    iget v2, p0, Lcom/google/android/gms/internal/pal/H2;->O:I
+
+    .line 58
+    .line 59
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object v2
+
+    .line 63
+    const/4 v3, 0x1
+
+    .line 64
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 65
+    .line 66
+    .line 67
+    move-result-object v4
+
+    .line 68
+    const/4 v5, 0x3
+
+    .line 69
+    new-array v5, v5, [Ljava/lang/Object;
+
+    .line 70
+    .line 71
+    const/4 v6, 0x0
+
+    .line 72
+    aput-object v1, v5, v6
+
+    .line 73
+    .line 74
+    aput-object v2, v5, v3
+
+    .line 75
+    .line 76
+    const/4 v1, 0x2
+
+    .line 77
+    aput-object v4, v5, v1
+
+    .line 78
+    .line 79
+    const-string v1, "Pos: %d, limit: %d, len: %d"
+
+    .line 80
+    .line 81
+    invoke-static {v1, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 82
+    .line 83
+    .line 84
+    move-result-object v1
+
+    .line 85
+    invoke-direct {v0, v1, p1}, Lcom/google/android/gms/internal/pal/zzaow;-><init>(Ljava/lang/String;Ljava/lang/IndexOutOfBoundsException;)V
+
+    .line 86
+    .line 87
+    .line 88
+    throw v0
+.end method
+
+.method public final D(IJ)V
+    .locals 0
+
+    .line 1
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 2
+    .line 3
+    or-int/lit8 p1, p1, 0x1
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p0, p2, p3}, Lcom/google/android/gms/internal/pal/H2;->E(J)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+.method public final E(J)V
+    .locals 7
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lcom/google/android/gms/internal/pal/H2;->N:[B
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 4
+    .line 5
+    add-int/lit8 v2, v1, 0x1
+
+    .line 6
+    .line 7
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 8
+    .line 9
+    long-to-int v3, p1
+
+    .line 10
+    and-int/lit16 v3, v3, 0xff
+
+    .line 11
+    .line 12
+    int-to-byte v3, v3
+
+    .line 13
+    aput-byte v3, v0, v1
+
+    .line 14
+    .line 15
+    add-int/lit8 v3, v1, 0x2
+
+    .line 16
+    .line 17
+    iput v3, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 18
+    .line 19
+    const/16 v4, 0x8
+
+    .line 20
+    .line 21
+    shr-long v5, p1, v4
+
+    .line 22
+    .line 23
+    long-to-int v6, v5
+
+    .line 24
+    and-int/lit16 v5, v6, 0xff
+
+    .line 25
+    .line 26
+    int-to-byte v5, v5
+
+    .line 27
+    aput-byte v5, v0, v2
+
+    .line 28
+    .line 29
+    add-int/lit8 v2, v1, 0x3
+
+    .line 30
+    .line 31
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 32
+    .line 33
+    const/16 v5, 0x10
+
+    .line 34
+    .line 35
+    shr-long v5, p1, v5
+
+    .line 36
+    .line 37
+    long-to-int v6, v5
+
+    .line 38
+    and-int/lit16 v5, v6, 0xff
+
+    .line 39
+    .line 40
+    int-to-byte v5, v5
+
+    .line 41
+    aput-byte v5, v0, v3
+
+    .line 42
+    .line 43
+    add-int/lit8 v3, v1, 0x4
+
+    .line 44
+    .line 45
+    iput v3, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 46
+    .line 47
+    const/16 v5, 0x18
+
+    .line 48
+    .line 49
+    shr-long v5, p1, v5
+
+    .line 50
+    .line 51
+    long-to-int v6, v5
+
+    .line 52
+    and-int/lit16 v5, v6, 0xff
+
+    .line 53
+    .line 54
+    int-to-byte v5, v5
+
+    .line 55
+    aput-byte v5, v0, v2
+
+    .line 56
+    .line 57
+    add-int/lit8 v2, v1, 0x5
+
+    .line 58
+    .line 59
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 60
+    .line 61
+    const/16 v5, 0x20
+
+    .line 62
+    .line 63
+    shr-long v5, p1, v5
+
+    .line 64
+    .line 65
+    long-to-int v6, v5
+
+    .line 66
+    and-int/lit16 v5, v6, 0xff
+
+    .line 67
+    .line 68
+    int-to-byte v5, v5
+
+    .line 69
+    aput-byte v5, v0, v3
+
+    .line 70
+    .line 71
+    add-int/lit8 v3, v1, 0x6
+
+    .line 72
+    .line 73
+    iput v3, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 74
+    .line 75
+    const/16 v5, 0x28
+
+    .line 76
+    .line 77
+    shr-long v5, p1, v5
+
+    .line 78
+    .line 79
+    long-to-int v6, v5
+
+    .line 80
+    and-int/lit16 v5, v6, 0xff
+
+    .line 81
+    .line 82
+    int-to-byte v5, v5
+
+    .line 83
+    aput-byte v5, v0, v2
+
+    .line 84
+    .line 85
+    add-int/lit8 v2, v1, 0x7
+
+    .line 86
+    .line 87
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 88
+    .line 89
+    const/16 v5, 0x30
+
+    .line 90
+    .line 91
+    shr-long v5, p1, v5
+
+    .line 92
+    .line 93
+    long-to-int v6, v5
+
+    .line 94
+    and-int/lit16 v5, v6, 0xff
+
+    .line 95
+    .line 96
+    int-to-byte v5, v5
+
+    .line 97
+    aput-byte v5, v0, v3
+
+    .line 98
+    .line 99
+    add-int/2addr v1, v4
+
+    .line 100
+    iput v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 101
+    .line 102
+    const/16 v1, 0x38
+
+    .line 103
+    .line 104
+    shr-long/2addr p1, v1
+
+    .line 105
+    long-to-int p2, p1
+
+    .line 106
+    and-int/lit16 p1, p2, 0xff
+
+    .line 107
+    .line 108
+    int-to-byte p1, p1
+
+    .line 109
+    aput-byte p1, v0, v2
+    :try_end_0
+    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 110
+    .line 111
+    return-void
+
+    .line 112
+    :catch_0
+    move-exception p1
+
+    .line 113
+    new-instance p2, Lcom/google/android/gms/internal/pal/zzaow;
+
+    .line 114
+    .line 115
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 116
+    .line 117
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 118
+    .line 119
+    .line 120
+    move-result-object v0
+
+    .line 121
+    iget v1, p0, Lcom/google/android/gms/internal/pal/H2;->O:I
+
+    .line 122
+    .line 123
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 124
+    .line 125
+    .line 126
+    move-result-object v1
+
+    .line 127
+    const/4 v2, 0x1
+
+    .line 128
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 129
+    .line 130
+    .line 131
+    move-result-object v3
+
+    .line 132
+    const/4 v4, 0x3
+
+    .line 133
+    new-array v4, v4, [Ljava/lang/Object;
+
+    .line 134
+    .line 135
+    const/4 v5, 0x0
+
+    .line 136
+    aput-object v0, v4, v5
+
+    .line 137
+    .line 138
+    aput-object v1, v4, v2
+
+    .line 139
+    .line 140
+    const/4 v0, 0x2
+
+    .line 141
+    aput-object v3, v4, v0
+
+    .line 142
+    .line 143
+    const-string v0, "Pos: %d, limit: %d, len: %d"
+
+    .line 144
+    .line 145
+    invoke-static {v0, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 146
+    .line 147
+    .line 148
+    move-result-object v0
+
+    .line 149
+    invoke-direct {p2, v0, p1}, Lcom/google/android/gms/internal/pal/zzaow;-><init>(Ljava/lang/String;Ljava/lang/IndexOutOfBoundsException;)V
+
+    .line 150
+    .line 151
+    .line 152
+    throw p2
+.end method
+
+.method public final F(II)V
+    .locals 0
+
+    .line 1
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/pal/H2;->G(I)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public final G(I)V
+    .locals 2
+
+    .line 1
+    if-ltz p1, :cond_0
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+
+    .line 7
+    :cond_0
+    int-to-long v0, p1
+
+    .line 8
+    invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/internal/pal/H2;->M(J)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+.method public final H(ILjava/lang/String;)V
+    .locals 7
+
+    .line 1
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 2
+    .line 3
+    or-int/lit8 p1, p1, 0x2
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    iget p1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 9
+    .line 10
+    :try_start_0
+    invoke-virtual {p2}, Ljava/lang/String;->length()I
+
+    .line 11
+    .line 12
+    .line 13
+    move-result v0
+
+    .line 14
+    mul-int/lit8 v0, v0, 0x3
+
+    .line 15
+    .line 16
+    invoke-static {v0}, Lcom/google/android/gms/internal/pal/I2;->v(I)I
+
+    .line 17
+    .line 18
+    .line 19
+    move-result v0
+
+    .line 20
+    invoke-virtual {p2}, Ljava/lang/String;->length()I
+
+    .line 21
+    .line 22
+    .line 23
+    move-result v1
+
+    .line 24
+    invoke-static {v1}, Lcom/google/android/gms/internal/pal/I2;->v(I)I
+
+    .line 25
+    .line 26
+    .line 27
+    move-result v1
+    :try_end_0
+    .catch Lcom/google/android/gms/internal/pal/zzasw; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 28
+    iget v2, p0, Lcom/google/android/gms/internal/pal/H2;->O:I
+
+    .line 29
+    .line 30
+    iget-object v3, p0, Lcom/google/android/gms/internal/pal/H2;->N:[B
+
+    .line 31
+    .line 32
+    if-ne v1, v0, :cond_0
+
+    .line 33
+    .line 34
+    add-int v0, p1, v1
+
+    .line 35
+    .line 36
+    :try_start_1
+    iput v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 37
+    .line 38
+    sub-int/2addr v2, v0
+
+    .line 39
+    invoke-static {v0, v2, p2, v3}, Lcom/google/android/gms/internal/pal/i4;->b(IILjava/lang/String;[B)I
+
+    .line 40
+    .line 41
+    .line 42
+    move-result v0
+
+    .line 43
+    iput p1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 44
+    .line 45
+    sub-int v2, v0, p1
+
+    .line 46
+    .line 47
+    sub-int/2addr v2, v1
+
+    .line 48
+    invoke-virtual {p0, v2}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 49
+    .line 50
+    .line 51
+    iput v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 52
+    .line 53
+    return-void
+
+    .line 54
+    :catch_0
+    move-exception v0
+
+    .line 55
+    move-object p1, v0
+
+    .line 56
+    goto :goto_0
+
+    .line 57
+    :catch_1
+    move-exception v0
+
+    .line 58
+    move-object v6, v0
+
+    .line 59
+    goto :goto_1
+
+    .line 60
+    :cond_0
+    invoke-static {p2}, Lcom/google/android/gms/internal/pal/i4;->c(Ljava/lang/String;)I
+
+    .line 61
+    .line 62
+    .line 63
+    move-result v0
+
+    .line 64
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 65
+    .line 66
+    .line 67
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 68
+    .line 69
+    sub-int/2addr v2, v0
+
+    .line 70
+    invoke-static {v0, v2, p2, v3}, Lcom/google/android/gms/internal/pal/i4;->b(IILjava/lang/String;[B)I
+
+    .line 71
+    .line 72
+    .line 73
+    move-result v0
+
+    .line 74
+    iput v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+    :try_end_1
+    .catch Lcom/google/android/gms/internal/pal/zzasw; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_1 .. :try_end_1} :catch_0
+
+    .line 75
+    .line 76
+    return-void
+
+    .line 77
+    :goto_0
+    new-instance p2, Lcom/google/android/gms/internal/pal/zzaow;
+
+    .line 78
+    .line 79
+    invoke-direct {p2, p1}, Lcom/google/android/gms/internal/pal/zzaow;-><init>(Ljava/lang/IndexOutOfBoundsException;)V
+
+    .line 80
+    .line 81
+    .line 82
+    throw p2
+
+    .line 83
+    :goto_1
+    iput p1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 84
+    .line 85
+    sget-object v2, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
+
+    .line 86
+    .line 87
+    const-string v4, "inefficientWriteStringNoTag"
+
+    .line 88
+    .line 89
+    const-string v5, "Converting ill-formed UTF-16. Your Protocol Buffer will not round trip correctly!"
+
+    .line 90
+    .line 91
+    sget-object v1, Lcom/google/android/gms/internal/pal/I2;->L:Ljava/util/logging/Logger;
+
+    .line 92
+    .line 93
+    const-string v3, "com.google.protobuf.CodedOutputStream"
+
+    .line 94
+    .line 95
+    invoke-virtual/range {v1 .. v6}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 96
+    .line 97
+    .line 98
+    sget-object p1, Lcom/google/android/gms/internal/pal/e3;->a:Ljava/nio/charset/Charset;
+
+    .line 99
+    .line 100
+    invoke-virtual {p2, p1}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+
+    .line 101
+    .line 102
+    .line 103
+    move-result-object p1
+
+    .line 104
+    :try_start_2
+    array-length p2, p1
+
+    .line 105
+    invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 106
+    .line 107
+    .line 108
+    const/4 v0, 0x0
+
+    .line 109
+    invoke-virtual {p0, p1, v0, p2}, Lcom/google/android/gms/internal/pal/H2;->y([BII)V
+    :try_end_2
+    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_2 .. :try_end_2} :catch_2
+
+    .line 110
+    .line 111
+    .line 112
+    return-void
+
+    .line 113
+    :catch_2
+    move-exception v0
+
+    .line 114
+    move-object p1, v0
+
+    .line 115
+    new-instance p2, Lcom/google/android/gms/internal/pal/zzaow;
+
+    .line 116
+    .line 117
+    invoke-direct {p2, p1}, Lcom/google/android/gms/internal/pal/zzaow;-><init>(Ljava/lang/IndexOutOfBoundsException;)V
+
+    .line 118
+    .line 119
+    .line 120
+    throw p2
+.end method
+
+.method public final I(II)V
+    .locals 0
+
+    .line 1
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 2
+    .line 3
+    or-int/2addr p1, p2
+
+    .line 4
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+.method public final J(II)V
+    .locals 0
+
+    .line 1
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public final K(I)V
+    .locals 7
+
+    .line 1
+    :goto_0
+    and-int/lit8 v0, p1, -0x80
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lcom/google/android/gms/internal/pal/H2;->N:[B
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    .line 7
+    :try_start_0
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 8
+    .line 9
+    add-int/lit8 v2, v0, 0x1
+
+    .line 10
+    .line 11
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 12
+    .line 13
+    int-to-byte p1, p1
+
+    .line 14
+    aput-byte p1, v1, v0
+
+    .line 15
+    .line 16
+    return-void
+
+    .line 17
+    :catch_0
+    move-exception p1
+
+    .line 18
+    goto :goto_1
+
+    .line 19
+    :cond_0
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 20
+    .line 21
+    add-int/lit8 v2, v0, 0x1
+
+    .line 22
+    .line 23
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 24
+    .line 25
+    and-int/lit8 v2, p1, 0x7f
+
+    .line 26
+    .line 27
+    or-int/lit16 v2, v2, 0x80
+
+    .line 28
+    .line 29
+    int-to-byte v2, v2
+
+    .line 30
+    aput-byte v2, v1, v0
+    :try_end_0
+    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 31
+    .line 32
+    ushr-int/lit8 p1, p1, 0x7
+
+    .line 33
+    .line 34
+    goto :goto_0
+
+    .line 35
+    :goto_1
+    new-instance v0, Lcom/google/android/gms/internal/pal/zzaow;
+
+    .line 36
+    .line 37
+    iget v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 38
+    .line 39
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object v1
+
+    .line 43
+    iget v2, p0, Lcom/google/android/gms/internal/pal/H2;->O:I
+
+    .line 44
+    .line 45
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object v2
+
+    .line 49
+    const/4 v3, 0x1
+
+    .line 50
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object v4
+
+    .line 54
+    const/4 v5, 0x3
+
+    .line 55
+    new-array v5, v5, [Ljava/lang/Object;
+
+    .line 56
+    .line 57
+    const/4 v6, 0x0
+
+    .line 58
+    aput-object v1, v5, v6
+
+    .line 59
+    .line 60
+    aput-object v2, v5, v3
+
+    .line 61
+    .line 62
+    const/4 v1, 0x2
+
+    .line 63
+    aput-object v4, v5, v1
+
+    .line 64
+    .line 65
+    const-string v1, "Pos: %d, limit: %d, len: %d"
+
+    .line 66
+    .line 67
+    invoke-static {v1, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 68
+    .line 69
+    .line 70
+    move-result-object v1
+
+    .line 71
+    invoke-direct {v0, v1, p1}, Lcom/google/android/gms/internal/pal/zzaow;-><init>(Ljava/lang/String;Ljava/lang/IndexOutOfBoundsException;)V
+
+    .line 72
+    .line 73
+    .line 74
+    throw v0
+.end method
+
+.method public final L(IJ)V
+    .locals 0
+
+    .line 1
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0, p2, p3}, Lcom/google/android/gms/internal/pal/H2;->M(J)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public final M(J)V
+    .locals 12
+
+    .line 1
+    sget-boolean v0, Lcom/google/android/gms/internal/pal/I2;->M:Z
+
+    .line 2
+    .line 3
+    const/4 v1, 0x7
+
+    .line 4
+    const-wide/16 v2, 0x0
+
+    .line 5
+    .line 6
+    const-wide/16 v4, -0x80
+
+    .line 7
+    .line 8
+    iget v6, p0, Lcom/google/android/gms/internal/pal/H2;->O:I
+
+    .line 9
+    .line 10
+    iget-object v7, p0, Lcom/google/android/gms/internal/pal/H2;->N:[B
+
+    .line 11
+    .line 12
+    if-eqz v0, :cond_1
+
+    .line 13
+    .line 14
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 15
+    .line 16
+    sub-int v0, v6, v0
+
+    .line 17
+    .line 18
+    const/16 v8, 0xa
+
+    .line 19
+    .line 20
+    if-lt v0, v8, :cond_1
+
+    .line 21
+    .line 22
+    :goto_0
+    and-long v8, p1, v4
+
+    .line 23
+    .line 24
+    cmp-long v0, v8, v2
+
+    .line 25
+    .line 26
+    long-to-int v6, p1
+
+    .line 27
+    if-nez v0, :cond_0
+
+    .line 28
+    .line 29
+    iget p1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 30
+    .line 31
+    add-int/lit8 p2, p1, 0x1
+
+    .line 32
+    .line 33
+    iput p2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 34
+    .line 35
+    int-to-long p1, p1
+
+    .line 36
+    int-to-byte v0, v6
+
+    .line 37
+    sget-object v1, Lcom/google/android/gms/internal/pal/f4;->c:Lcom/google/android/gms/internal/pal/e4;
+
+    .line 38
+    .line 39
+    sget-wide v2, Lcom/google/android/gms/internal/pal/f4;->f:J
+
+    .line 40
+    .line 41
+    add-long/2addr v2, p1
+
+    .line 42
+    invoke-virtual {v1, v7, v2, v3, v0}, Lcom/google/android/gms/internal/pal/e4;->f(Ljava/lang/Object;JB)V
+
+    .line 43
+    .line 44
+    .line 45
+    return-void
+
+    .line 46
+    :cond_0
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 47
+    .line 48
+    add-int/lit8 v8, v0, 0x1
+
+    .line 49
+    .line 50
+    iput v8, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 51
+    .line 52
+    int-to-long v8, v0
+
+    .line 53
+    and-int/lit8 v0, v6, 0x7f
+
+    .line 54
+    .line 55
+    or-int/lit16 v0, v0, 0x80
+
+    .line 56
+    .line 57
+    int-to-byte v0, v0
+
+    .line 58
+    sget-object v6, Lcom/google/android/gms/internal/pal/f4;->c:Lcom/google/android/gms/internal/pal/e4;
+
+    .line 59
+    .line 60
+    sget-wide v10, Lcom/google/android/gms/internal/pal/f4;->f:J
+
+    .line 61
+    .line 62
+    add-long/2addr v10, v8
+
+    .line 63
+    invoke-virtual {v6, v7, v10, v11, v0}, Lcom/google/android/gms/internal/pal/e4;->f(Ljava/lang/Object;JB)V
+
+    .line 64
+    .line 65
+    .line 66
+    ushr-long/2addr p1, v1
+
+    .line 67
+    goto :goto_0
+
+    .line 68
+    :cond_1
+    :goto_1
+    and-long v8, p1, v4
+
+    .line 69
+    .line 70
+    cmp-long v0, v8, v2
+
+    .line 71
+    .line 72
+    if-nez v0, :cond_2
+
+    .line 73
+    .line 74
+    :try_start_0
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 75
+    .line 76
+    add-int/lit8 v1, v0, 0x1
+
+    .line 77
+    .line 78
+    iput v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 79
+    .line 80
+    long-to-int p2, p1
+
+    .line 81
+    int-to-byte p1, p2
+
+    .line 82
+    aput-byte p1, v7, v0
+
+    .line 83
+    .line 84
+    return-void
+
+    .line 85
+    :catch_0
+    move-exception p1
+
+    .line 86
+    goto :goto_2
+
+    .line 87
+    :cond_2
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 88
+    .line 89
+    add-int/lit8 v8, v0, 0x1
+
+    .line 90
+    .line 91
+    iput v8, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 92
+    .line 93
+    long-to-int v8, p1
+
+    .line 94
+    and-int/lit8 v8, v8, 0x7f
+
+    .line 95
+    .line 96
+    or-int/lit16 v8, v8, 0x80
+
+    .line 97
+    .line 98
+    int-to-byte v8, v8
+
+    .line 99
+    aput-byte v8, v7, v0
+    :try_end_0
+    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 100
+    .line 101
+    ushr-long/2addr p1, v1
+
+    .line 102
+    goto :goto_1
+
+    .line 103
+    :goto_2
+    new-instance p2, Lcom/google/android/gms/internal/pal/zzaow;
+
+    .line 104
+    .line 105
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 106
+    .line 107
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 108
+    .line 109
+    .line 110
+    move-result-object v0
+
+    .line 111
+    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 112
+    .line 113
+    .line 114
+    move-result-object v1
+
+    .line 115
+    const/4 v2, 0x1
+
+    .line 116
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 117
+    .line 118
+    .line 119
+    move-result-object v3
+
+    .line 120
+    const/4 v4, 0x3
+
+    .line 121
+    new-array v4, v4, [Ljava/lang/Object;
+
+    .line 122
+    .line 123
+    const/4 v5, 0x0
+
+    .line 124
+    aput-object v0, v4, v5
+
+    .line 125
+    .line 126
+    aput-object v1, v4, v2
+
+    .line 127
+    .line 128
+    const/4 v0, 0x2
+
+    .line 129
+    aput-object v3, v4, v0
+
+    .line 130
+    .line 131
+    const-string v0, "Pos: %d, limit: %d, len: %d"
+
+    .line 132
+    .line 133
+    invoke-static {v0, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 134
+    .line 135
+    .line 136
+    move-result-object v0
+
+    .line 137
+    invoke-direct {p2, v0, p1}, Lcom/google/android/gms/internal/pal/zzaow;-><init>(Ljava/lang/String;Ljava/lang/IndexOutOfBoundsException;)V
+
+    .line 138
+    .line 139
+    .line 140
+    throw p2
+.end method
+
+.method public final x(B)V
+    .locals 7
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lcom/google/android/gms/internal/pal/H2;->N:[B
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 4
+    .line 5
+    add-int/lit8 v2, v1, 0x1
+
+    .line 6
+    .line 7
+    iput v2, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 8
+    .line 9
+    aput-byte p1, v0, v1
+    :try_end_0
+    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 10
+    .line 11
+    return-void
+
+    .line 12
+    :catch_0
+    move-exception p1
+
+    .line 13
+    new-instance v0, Lcom/google/android/gms/internal/pal/zzaow;
+
+    .line 14
+    .line 15
+    iget v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 16
+    .line 17
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v1
+
+    .line 21
+    iget v2, p0, Lcom/google/android/gms/internal/pal/H2;->O:I
+
+    .line 22
+    .line 23
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v2
+
+    .line 27
+    const/4 v3, 0x1
+
+    .line 28
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v4
+
+    .line 32
+    const/4 v5, 0x3
+
+    .line 33
+    new-array v5, v5, [Ljava/lang/Object;
+
+    .line 34
+    .line 35
+    const/4 v6, 0x0
+
+    .line 36
+    aput-object v1, v5, v6
+
+    .line 37
+    .line 38
+    aput-object v2, v5, v3
+
+    .line 39
+    .line 40
+    const/4 v1, 0x2
+
+    .line 41
+    aput-object v4, v5, v1
+
+    .line 42
+    .line 43
+    const-string v1, "Pos: %d, limit: %d, len: %d"
+
+    .line 44
+    .line 45
+    invoke-static {v1, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object v1
+
+    .line 49
+    invoke-direct {v0, v1, p1}, Lcom/google/android/gms/internal/pal/zzaow;-><init>(Ljava/lang/String;Ljava/lang/IndexOutOfBoundsException;)V
+
+    .line 50
+    .line 51
+    .line 52
+    throw v0
+.end method
+
+.method public final y([BII)V
+    .locals 4
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lcom/google/android/gms/internal/pal/H2;->N:[B
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 4
+    .line 5
+    invoke-static {p1, p2, v0, v1, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    .line 6
+    .line 7
+    .line 8
+    iget p1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 9
+    .line 10
+    add-int/2addr p1, p3
+
+    .line 11
+    iput p1, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+    :try_end_0
+    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 12
+    .line 13
+    return-void
+
+    .line 14
+    :catch_0
+    move-exception p1
+
+    .line 15
+    new-instance p2, Lcom/google/android/gms/internal/pal/zzaow;
+
+    .line 16
+    .line 17
+    iget v0, p0, Lcom/google/android/gms/internal/pal/H2;->P:I
+
+    .line 18
+    .line 19
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v0
+
+    .line 23
+    iget v1, p0, Lcom/google/android/gms/internal/pal/H2;->O:I
+
+    .line 24
+    .line 25
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object v1
+
+    .line 29
+    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p3
+
+    .line 33
+    const/4 v2, 0x3
+
+    .line 34
+    new-array v2, v2, [Ljava/lang/Object;
+
+    .line 35
+    .line 36
+    const/4 v3, 0x0
+
+    .line 37
+    aput-object v0, v2, v3
+
+    .line 38
+    .line 39
+    const/4 v0, 0x1
+
+    .line 40
+    aput-object v1, v2, v0
+
+    .line 41
+    .line 42
+    const/4 v0, 0x2
+
+    .line 43
+    aput-object p3, v2, v0
+
+    .line 44
+    .line 45
+    const-string p3, "Pos: %d, limit: %d, len: %d"
+
+    .line 46
+    .line 47
+    invoke-static {p3, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object p3
+
+    .line 51
+    invoke-direct {p2, p3, p1}, Lcom/google/android/gms/internal/pal/zzaow;-><init>(Ljava/lang/String;Ljava/lang/IndexOutOfBoundsException;)V
+
+    .line 52
+    .line 53
+    .line 54
+    throw p2
+.end method
+
+.method public final z(IZ)V
+    .locals 0
+
+    .line 1
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/pal/H2;->K(I)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/pal/H2;->x(B)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method

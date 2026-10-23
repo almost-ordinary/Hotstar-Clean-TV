@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_illustration" android:visibility="gone" android:layout_width="match_parent" android:layout_height="80.0dp" app:lottie_cacheComposition="true" app:lottie_speed="1.0" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_hero_illustrator_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="80.0dp" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_alt_2" android:gravity="center" android:id="@id/txt_hero_illustrator_icon" android:visibility="gone" android:layout_width="match_parent" android:layout_height="80.0dp" android:text="@string/icon_separator_dot" android:fontFamily="@font/soul_icons" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_alt_2" android:gravity="center" android:id="@id/textView_subtitle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_07" android:layout_marginTop="@dimen/space_05" android:layout_marginRight="@dimen/space_07" style="@style/Body3.Medium" />
+</merge>

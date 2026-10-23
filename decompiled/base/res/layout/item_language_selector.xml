@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/languages" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent" app:alignContent="center" app:alignItems="center" app:flexDirection="row" app:flexWrap="wrap" app:justifyContent="center" />
+</merge>

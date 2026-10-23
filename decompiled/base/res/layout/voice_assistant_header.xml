@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="24.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="62.0dp">
+        <ImageView android:layout_gravity="center" android:id="@id/va_iv_mic" android:visibility="gone" android:layout_width="60.0dp" android:layout_height="60.0dp" android:contentDescription="@null" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/va_lottie" android:layout_width="60.0dp" android:layout_height="60.0dp" android:scaleX="0.0" android:scaleY="0.0" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_speed="1.0" />
+    </FrameLayout>
+    <com.hotstar.core.commonui.molecules.HSTextView android:id="@id/tv_ask_again" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" style="@style/Body2.Medium" />
+    <Space android:layout_width="wrap_content" android:layout_height="14.0dp" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:gravity="center" android:id="@id/tv_header_title" android:visibility="visible" android:layout_width="210.0dp" android:layout_height="wrap_content" android:minHeight="24.0dp" style="@style/Body1.Medium" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="true" android:clipToPadding="true" android:layout_width="210.0dp" android:layout_height="wrap_content">
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:gravity="center" android:id="@id/tv_prompt_message" android:layout_width="210.0dp" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:minHeight="24.0dp" style="@style/Body1.Medium" />
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/searching_dots" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="24.0dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/va_searching_dots" app:lottie_speed="1.0" />
+</LinearLayout>

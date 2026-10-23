@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/uat_image_container" android:focusable="true" android:clickable="true" android:layout_width="181.0dp" android:layout_height="241.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/uat_media_parent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/tray_image_padding" />
+    <com.hotstar.core.commonui.molecules.HSTrayItemImageView android:id="@id/iv_vertical_poster" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="parent" />
+    <com.hotstar.core.commonui.molecules.HSUatTitleCutoutView android:layout_gravity="bottom" android:id="@id/title_cutout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="86.0dp" android:layout_marginBottom="4.0dp" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_alt_2" android:gravity="end" android:layout_gravity="bottom" android:id="@id/tv_no_trailer_available" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_08" android:text="@string/uta_no_trailer_available" android:layout_marginEnd="@dimen/space_08" style="@style/Caption2.Medium" />
+</FrameLayout>

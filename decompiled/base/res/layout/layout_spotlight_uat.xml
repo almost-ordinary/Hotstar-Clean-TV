@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/on_image_default" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_02" android:maxLines="1" android:textAlignment="viewStart" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/H6" />
+    <com.hotstar.widget.spotlight.gec.tag.TagsView android:id="@id/tg_tags" android:layout_width="match_parent" android:layout_height="@dimen/spotlight_tag_height" android:layout_marginTop="@dimen/space_04" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title" app:separator="CIRCLE" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_alt" android:ellipsize="end" android:id="@id/tv_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_04" android:maxLines="3" android:textAlignment="viewStart" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tg_tags" style="@style/Body3.Regular" />
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/watch_nav_graph" app:startDestination="@id/watch_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.hotstar.page.watch.WatchFragment" android:id="@id/watch_fragment">
+        <deepLink app:uri="@string/deep_link_watch_fragment" />
+        <argument android:name="watchPageId" app:argType="string" />
+        <argument android:name="imageUrl" android:defaultValue="" app:argType="string" />
+        <argument android:name="isFullscreenByDefault" android:defaultValue="false" app:argType="string" />
+        <argument android:name="isDeeplink" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="timeStamp" android:defaultValue="" app:argType="string" />
+        <argument android:name="isFromReload" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="initiationSource" android:defaultValue="0" app:argType="string" />
+        <argument android:name="initiationType" android:defaultValue="0" app:argType="string" />
+        <argument android:name="isContentAutoPlayed" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="isZapperNavigationEnabled" android:defaultValue="false" app:argType="boolean" />
+    </fragment>
+</navigation>

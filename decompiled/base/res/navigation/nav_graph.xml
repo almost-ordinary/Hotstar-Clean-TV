@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/splash_nav_graph"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:graph="@navigation/splash_nav_graph" />
+    <include app:graph="@navigation/onboarding_nav_graph" />
+    <include app:graph="@navigation/landing_nav_graph" />
+    <include app:graph="@navigation/hero_landing_nav_graph" />
+    <include app:graph="@navigation/watch_nav_graph" />
+    <include app:graph="@navigation/subs_disclaimer_nav_graph" />
+    <include app:graph="@navigation/paywall_nav_graph" />
+    <include app:graph="@navigation/paywall_v2_nav_graph" />
+    <include app:graph="@navigation/detail_nav_graph" />
+    <include app:graph="@navigation/payment_nav_graph" />
+    <include app:graph="@navigation/mepage_nav_graph" />
+    <include app:graph="@navigation/search_nav_graph" />
+    <include app:graph="@navigation/help_settings_nav_graph" />
+    <include app:graph="@navigation/listing_nav_graph" />
+    <include app:graph="@navigation/payment_method_nav_graph" />
+    <include app:graph="@navigation/actionsheet_nav_graph" />
+    <include app:graph="@navigation/profiles_nav_graph" />
+</navigation>

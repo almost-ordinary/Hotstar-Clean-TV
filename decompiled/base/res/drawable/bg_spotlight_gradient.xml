@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/starlight_spotlight_gradient" />
+    <item android:drawable="@drawable/spotlight_gradient" />
+</selector>

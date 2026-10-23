@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="@dimen/pill_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotstar.core.commonui.molecules.HSTextView android:textSize="@dimen/icon_size_05" android:id="@id/tv_check_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_check" android:fontFamily="@font/soul_icons" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.hotstar.core.commonui.molecules.HSGlowingTextView android:id="@id/tv_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/hs_pill_label_start_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/tv_check_icon" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Button3.SemiBold" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_alt_2" android:id="@id/tv_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/space_03" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/tv_label" app:layout_constraintTop_toTopOf="parent" style="@style/Caption1.Medium" />
+</merge>

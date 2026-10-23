@@ -1,0 +1,40 @@
+.class public interface abstract Lcom/hotstar/ui/model/widget/PinUpdateCompletionWidget$DataOrBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/hotstar/ui/model/widget/PinUpdateCompletionWidget;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "DataOrBuilder"
+.end annotation
+
+
+# virtual methods
+.method public abstract getFailureStateView()Lcom/hotstar/ui/model/widget/PinUpdateCompletionWidget$PinUpdateStatus;
+.end method
+
+.method public abstract getFailureStateViewOrBuilder()Lcom/hotstar/ui/model/widget/PinUpdateCompletionWidget$PinUpdateStatusOrBuilder;
+.end method
+
+.method public abstract getPinStatus()Z
+.end method
+
+.method public abstract getSuccessStateView()Lcom/hotstar/ui/model/widget/PinUpdateCompletionWidget$PinUpdateStatus;
+.end method
+
+.method public abstract getSuccessStateViewOrBuilder()Lcom/hotstar/ui/model/widget/PinUpdateCompletionWidget$PinUpdateStatusOrBuilder;
+.end method
+
+.method public abstract hasFailureStateView()Z
+.end method
+
+.method public abstract hasSuccessStateView()Z
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/hero_landing_nav_graph" app:startDestination="@id/hero_landing_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.hotstar.page.herolanding.HeroLandingFragment" android:id="@id/hero_landing_fragment">
+        <deepLink app:uri="@string/deep_link_hero_landing_fragment" />
+        <argument android:name="heroPageId" app:argType="string" />
+        <argument android:name="isOpenedFromLanding" app:argType="boolean" />
+    </fragment>
+</navigation>

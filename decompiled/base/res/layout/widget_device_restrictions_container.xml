@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_illustration_left" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.4" />
+        <com.hotstar.widget.hero.HeroWidget android:id="@id/hero_widget" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:foregroundGravity="left" app:layout_constraintEnd_toStartOf="@id/guideline_illustration_left" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.core.widget.NestedScrollView android:id="@id/nestedScroll" android:paddingTop="@dimen/space_07" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/space_07" android:layout_marginStart="@dimen/space_11" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/guideline_illustration_left" app:layout_constraintTop_toTopOf="parent">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/layoutViews" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingEnd="@dimen/space_06">
+                <com.hotstar.widget.devicemanager.DeviceManager android:id="@id/device_manager_widget" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_07" />
+                <com.hotstar.widget.divider.DividerWidget android:id="@id/divider_widget" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_03" android:layout_marginStart="@dimen/space_11" />
+                <com.hotstar.widget.minibanner.MiniBannerWidget android:id="@id/plan_upgrade_nudge" android:background="@drawable/selector_device_restriction_item_bg" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_03" android:layout_marginStart="@dimen/space_11" />
+                <com.hotstar.widget.planCardIngress.PlanCardIngressWidget android:id="@id/plan_card_ingress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_03" android:layout_marginStart="@dimen/space_11" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

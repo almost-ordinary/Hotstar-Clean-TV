@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewFlipper android:id="@id/payment_view_flipper" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/payment_loading" android:layout_width="42.0dp" android:layout_height="42.0dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="?loader" app:lottie_speed="1.0" />
+        <include android:id="@id/confirming_subscription" layout="@layout/view_confirming_subscription" />
+        <include android:id="@id/confirming_subscription_longer" layout="@layout/view_confirming_subscription_longer" />
+        <include android:id="@id/payment_error" layout="@layout/view_payment_error" />
+        <include android:id="@id/payment_success" layout="@layout/view_payment_success_widget" />
+    </ViewFlipper>
+</androidx.constraintlayout.widget.ConstraintLayout>

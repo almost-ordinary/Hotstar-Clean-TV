@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewFlipper android:id="@id/subs_disclaimer_view_flipper" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/subscription_disclaimer_loading" android:layout_width="42.0dp" android:layout_height="42.0dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="?loader" />
+        <include android:id="@id/layout_subscription_disclaimer" layout="@layout/layout_subscription_disclaimer_loaded" />
+    </ViewFlipper>
+</androidx.constraintlayout.widget.ConstraintLayout>

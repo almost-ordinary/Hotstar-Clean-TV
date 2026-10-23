@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.widget.spotlight.uat.UatSpotlightView android:id="@id/uat_spotlight" android:layout_width="@dimen/uat_spotlight_width" android:layout_height="@dimen/uat_spotlight_height" android:layout_marginStart="@dimen/menu_width_collapsed" />
+</merge>

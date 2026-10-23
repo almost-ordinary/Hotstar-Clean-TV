@@ -1,0 +1,11 @@
+version: 3.0.3
+apkFileName: split_config.hi.apk
+usesFramework:
+  ids:
+  - 1
+versionInfo:
+  versionCode: 4704
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc

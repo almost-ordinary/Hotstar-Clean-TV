@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.core.commonui.molecules.HSTextView android:gravity="center" android:layout_gravity="center" android:id="@id/nudge_title" android:paddingLeft="@dimen/space_03" android:paddingTop="@dimen/space_02" android:paddingRight="@dimen/space_03" android:paddingBottom="@dimen/space_02" android:layout_width="wrap_content" android:layout_height="match_parent" android:textDirection="locale" android:textAlignment="center" style="@style/Badge1" />
+</merge>

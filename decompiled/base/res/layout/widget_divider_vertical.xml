@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="42.0dp" android:layout_height="wrap_content">
+        <View android:id="@id/divider_only_line" android:background="@drawable/divider" android:visibility="gone" android:layout_width="2.0dp" android:layout_height="match_parent" android:alpha="0.3" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/layout_divider_with_text" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <View android:layout_gravity="center_horizontal" android:background="@drawable/vertical_divider_pretext" android:layout_width="1.0dp" android:layout_height="0.0dp" android:layout_marginBottom="@dimen/space_08" android:layout_weight="0.45" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:textSize="@dimen/vertical_divider_text_size" android:textColor="?on_image_alt" android:layout_gravity="center_horizontal" android:id="@id/tv_center_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OR" style="@style/Body1.Medium" />
+            <View android:layout_gravity="center_horizontal" android:background="@drawable/vertical_divider_posttext" android:layout_width="1.0dp" android:layout_height="0.0dp" android:layout_marginTop="@dimen/space_08" android:layout_weight="0.45" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,11 @@
+.class public abstract Lpa/E;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lpa/E$a;
+    }
+.end annotation

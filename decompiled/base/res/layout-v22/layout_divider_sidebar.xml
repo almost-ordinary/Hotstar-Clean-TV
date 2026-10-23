@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/orDivider" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/shape_dividerline_pre_text" android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textSize="12.0sp" android:textColor="@color/on_image_alt" android:id="@id/textView_text" android:paddingBottom="1.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_03" android:layout_marginRight="@dimen/space_03" android:layout_marginHorizontal="@dimen/space_03" style="@style/Button.Button3.SemiBold" />
+    <View android:background="@drawable/shape_dividerline_post_text" android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+</LinearLayout>

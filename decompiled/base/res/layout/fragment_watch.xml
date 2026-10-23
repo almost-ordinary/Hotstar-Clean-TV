@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.fragment.app.FragmentContainerView android:id="@id/fragment_player" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.fragment.app.FragmentContainerView android:name="com.hotstar.page.watch.watchnext.WatchNextTrayFragment" android:id="@id/fragment_watch_next_tray" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <fragment android:name="com.hotstar.page.watch.watchnextmoment.WatchNextMomentFragment" android:id="@id/fragment_watch_next_moment" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/tray_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.fragment.app.FragmentContainerView android:name="com.hotstar.page.watch.overlay.WatchOverlayFragment" android:id="@id/fragment_watch_overlay" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.fragment.app.FragmentContainerView android:name="com.hotstar.page.watch.sfn.SFNFragment" android:id="@id/fragment_sfn" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/fragment_error" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

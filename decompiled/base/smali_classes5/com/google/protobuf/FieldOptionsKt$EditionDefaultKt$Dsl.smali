@@ -1,0 +1,325 @@
+.class public final Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Lcom/google/protobuf/kotlin/ProtoDslMarker;
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Dsl"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl$Companion;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00008\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\u000e\n\u0002\u0008\u0006\u0008\u0007\u0018\u0000 \u001e2\u00020\u0001:\u0001\u001eB\u0011\u0008\u0002\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u000f\u0010\u0007\u001a\u00020\u0006H\u0001\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\r\u0010\n\u001a\u00020\t\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\r\u0010\r\u001a\u00020\u000c\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\r\u0010\u000f\u001a\u00020\t\u00a2\u0006\u0004\u0008\u000f\u0010\u000bJ\r\u0010\u0010\u001a\u00020\u000c\u00a2\u0006\u0004\u0008\u0010\u0010\u000eR\u0014\u0010\u0003\u001a\u00020\u00028\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0003\u0010\u0011R$\u0010\u0018\u001a\u00020\u00122\u0006\u0010\u0013\u001a\u00020\u00128G@GX\u0086\u000e\u00a2\u0006\u000c\u001a\u0004\u0008\u0014\u0010\u0015\"\u0004\u0008\u0016\u0010\u0017R$\u0010\u0013\u001a\u00020\u00192\u0006\u0010\u0013\u001a\u00020\u00198G@GX\u0086\u000e\u00a2\u0006\u000c\u001a\u0004\u0008\u001a\u0010\u001b\"\u0004\u0008\u001c\u0010\u001d\u00a8\u0006\u001f"
+    }
+    d2 = {
+        "Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;",
+        "",
+        "Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;",
+        "_builder",
+        "<init>",
+        "(Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;)V",
+        "Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault;",
+        "_build",
+        "()Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault;",
+        "Lnl/g;",
+        "clearEdition",
+        "()V",
+        "",
+        "hasEdition",
+        "()Z",
+        "clearValue",
+        "hasValue",
+        "Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;",
+        "Lcom/google/protobuf/DescriptorProtos$Edition;",
+        "value",
+        "getEdition",
+        "()Lcom/google/protobuf/DescriptorProtos$Edition;",
+        "setEdition",
+        "(Lcom/google/protobuf/DescriptorProtos$Edition;)V",
+        "edition",
+        "",
+        "getValue",
+        "()Ljava/lang/String;",
+        "setValue",
+        "(Ljava/lang/String;)V",
+        "Companion",
+        "java_kotlin-lite-well_known_protos_kotlin_lite"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl$Companion;
+
+
+# instance fields
+.field private final _builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    sput-object v0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->Companion:Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl$Companion;
+
+    return-void
+.end method
+
+.method private constructor <init>(Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 3
+    iput-object p1, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;-><init>(Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic _build()Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;->build()Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    const-string v1, "build(...)"
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/g;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    check-cast v0, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault;
+
+    .line 13
+    .line 14
+    return-object v0
+.end method
+
+.method public final clearEdition()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;->clearEdition()Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public final clearValue()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;->clearValue()Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public final getEdition()Lcom/google/protobuf/DescriptorProtos$Edition;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;->getEdition()Lcom/google/protobuf/DescriptorProtos$Edition;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    const-string v1, "getEdition(...)"
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/g;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-object v0
+.end method
+
+.method public final getValue()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;->getValue()Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    const-string v1, "getValue(...)"
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/g;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-object v0
+.end method
+
+.method public final hasEdition()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;->hasEdition()Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    return v0
+.end method
+
+.method public final hasValue()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;->hasValue()Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    return v0
+.end method
+
+.method public final setEdition(Lcom/google/protobuf/DescriptorProtos$Edition;)V
+    .locals 1
+
+    .line 1
+    const-string v0, "value"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/g;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 7
+    .line 8
+    invoke-virtual {v0, p1}, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;->setEdition(Lcom/google/protobuf/DescriptorProtos$Edition;)Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+.method public final setValue(Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    const-string v0, "value"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/g;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Lcom/google/protobuf/FieldOptionsKt$EditionDefaultKt$Dsl;->_builder:Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 7
+    .line 8
+    invoke-virtual {v0, p1}, Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;->setValue(Ljava/lang/String;)Lcom/google/protobuf/DescriptorProtos$FieldOptions$EditionDefault$Builder;
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method

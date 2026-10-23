@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:id="@id/root_cl_hs_btn" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_media" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hotstar.core.commonui.molecules.HSTextView android:gravity="center" android:id="@id/icon" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:maxLines="1" android:fontFamily="@font/soul_icons" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@id/lottie" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/image" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" />
+    </FrameLayout>
+    <com.hotstar.core.commonui.molecules.HSTextView android:ellipsize="none" android:id="@id/label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/space_05" android:paddingEnd="@dimen/space_00" style="@style/Text.Button2.SemiBold" />
+</merge>

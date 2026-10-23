@@ -1,0 +1,141 @@
+.class public final LIj/d;
+.super Landroid/widget/LinearLayout;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:LGi/t;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 3
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    invoke-direct {p0, p1, v0}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p1
+
+    .line 9
+    const v0, 0x7f0e01c3
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
+
+    .line 13
+    .line 14
+    .line 15
+    const p1, 0x7f0b06c0
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-static {p0, p1}, Lec/e;->c(Landroid/view/View;I)Landroid/view/View;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v0
+
+    .line 22
+    check-cast v0, Lcom/hotstar/core/commonui/molecules/HSTextView;
+
+    .line 23
+    .line 24
+    if-eqz v0, :cond_0
+
+    .line 25
+    .line 26
+    const p1, 0x7f0b06c1
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-static {p0, p1}, Lec/e;->c(Landroid/view/View;I)Landroid/view/View;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v1
+
+    .line 33
+    check-cast v1, Lcom/hotstar/core/commonui/molecules/HSTextView;
+
+    .line 34
+    .line 35
+    if-eqz v1, :cond_0
+
+    .line 36
+    .line 37
+    new-instance p1, LGi/t;
+
+    .line 38
+    .line 39
+    const/4 v2, 0x2
+
+    .line 40
+    invoke-direct {p1, v2, v1, p0, v0}, LGi/t;-><init>(ILandroid/view/View;Landroid/widget/LinearLayout;Lcom/hotstar/core/commonui/molecules/HSTextView;)V
+
+    .line 41
+    .line 42
+    .line 43
+    iput-object p1, p0, LIj/d;->a:LGi/t;
+
+    .line 44
+    .line 45
+    return-void
+
+    .line 46
+    :cond_0
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-object v0
+
+    .line 50
+    invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object p1
+
+    .line 54
+    new-instance v0, Ljava/lang/NullPointerException;
+
+    .line 55
+    .line 56
+    const-string v1, "Missing required view with ID: "
+
+    .line 57
+    .line 58
+    invoke-virtual {v1, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 59
+    .line 60
+    .line 61
+    move-result-object p1
+
+    .line 62
+    invoke-direct {v0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    .line 63
+    .line 64
+    .line 65
+    throw v0
+.end method

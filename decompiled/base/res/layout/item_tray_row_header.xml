@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/tray_header_padding_top" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/tray_header_padding_start" android:paddingEnd="@dimen/tray_header_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.widget.scrollabletray.TrayHeaderCalloutTagsView android:id="@id/tags" android:layout_width="match_parent" android:layout_height="@dimen/tray_header_tag_height" />
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" style="@style/Title1" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_alt_2" android:ellipsize="end" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:maxLines="1" android:includeFontPadding="false" style="@style/Body3.Medium" />
+    </LinearLayout>
+</FrameLayout>

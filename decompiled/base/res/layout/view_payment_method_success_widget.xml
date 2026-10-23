@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_confirmation" android:layout_width="214.0dp" android:layout_height="120.0dp" app:lottie_autoPlay="true" app:lottie_loop="false" app:lottie_rawRes="?subscription_confirmation" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textSize="24.0sp" android:textColor="?on_surface_default" android:id="@id/payment_success_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_07" style="@style/H5" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textSize="14.0sp" android:textColor="?on_surface_alt" android:id="@id/payment_success_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_07" style="@style/H5" />
+    <com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/pay_success_button_progress" android:visibility="gone" android:layout_width="@dimen/payment_success_button_width" android:layout_height="36.0dp" android:layout_marginTop="@dimen/space_10" app:useProgressBackground="true" />
+    <com.hotstar.core.commonui.molecules.HSButton android:id="@id/payment_success_button_default" android:layout_width="292.0dp" android:layout_height="36.0dp" android:layout_marginTop="@dimen/space_10" app:textLabel="Start Watching" />
+</androidx.appcompat.widget.LinearLayoutCompat>

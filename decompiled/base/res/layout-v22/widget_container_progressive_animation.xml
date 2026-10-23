@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.widget.containerprogressive.ProgressiveHeroWidgetView android:id="@id/hero_widget_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_13" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_slot_container" android:paddingLeft="@dimen/space_13" android:paddingRight="@dimen/space_13" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_08" android:paddingHorizontal="@dimen/space_13" />
+</merge>

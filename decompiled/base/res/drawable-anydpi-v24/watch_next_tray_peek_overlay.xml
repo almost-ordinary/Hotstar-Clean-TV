@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="488.0dp" android:width="1920.0dp" android:viewportWidth="1920.0" android:viewportHeight="488.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$watch_next_tray_peek_overlay__0" android:pathData="M0,0h1920v488h-1920z" />
+</vector>

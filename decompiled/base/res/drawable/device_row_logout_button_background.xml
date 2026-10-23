@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/tab_button_border_radius" />
+                    <gradient android:startColor="@color/panther_grey_01" android:endColor="@color/panther_grey_03" android:angle="270.0" />
+                </shape>
+            </item>
+            <item android:left="@dimen/space_01" android:top="@dimen/space_01" android:right="@dimen/space_01" android:bottom="@dimen/space_01">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/tab_button_border_radius_2" />
+                    <solid android:color="@color/background_surface_default" />
+                </shape>
+            </item>
+            <item android:left="@dimen/space_02" android:top="@dimen/space_02" android:right="@dimen/space_02" android:bottom="@dimen/space_02">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/tab_button_border_radius_3" />
+                    <solid android:color="@color/white" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/tab_button_border_radius" />
+                    <solid android:color="@color/device_row_selected_color" />
+                </shape>
+            </item>
+            <item android:left="@dimen/space_01" android:top="@dimen/space_01" android:right="@dimen/space_01" android:bottom="@dimen/space_01">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/tab_button_border_radius_2" />
+                    <solid android:color="@color/device_row_selected_color" />
+                </shape>
+            </item>
+            <item android:left="@dimen/space_02" android:top="@dimen/space_02" android:right="@dimen/space_02" android:bottom="@dimen/space_02">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/tab_button_border_radius_3" />
+                    <solid android:color="@color/device_row_selected_color" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

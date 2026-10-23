@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/card_container" android:background="@drawable/background_card_value_props" android:paddingLeft="@dimen/space_06" android:paddingTop="@dimen/space_07" android:paddingRight="@dimen/space_06" android:paddingBottom="@dimen/space_07" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</merge>

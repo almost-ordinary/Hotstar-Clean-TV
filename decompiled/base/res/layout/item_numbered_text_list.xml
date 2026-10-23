@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:paddingBottom="@dimen/space_08" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:id="@id/textView_number" android:layout_width="16.0dp" android:layout_height="wrap_content" style="@style/Body4.Regular" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:id="@id/textView_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Body4.Regular" />
+</LinearLayout>

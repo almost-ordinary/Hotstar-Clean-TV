@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_loading" android:layout_width="42.0dp" android:layout_height="42.0dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="?loader" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textSize="24.0sp" android:textColor="?background_inverse" android:id="@id/confirming_subscription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dp" android:text="@string/android__payment__confirm_subscription_loading" style="@style/H5" />
+</androidx.appcompat.widget.LinearLayoutCompat>

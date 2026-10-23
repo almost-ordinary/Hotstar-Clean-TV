@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.core.commonui.molecules.HSAnimatedImageView android:id="@id/iv_background" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/player_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <View android:id="@id/spotlight_gradient" android:background="@drawable/bg_spotlight_gradient" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

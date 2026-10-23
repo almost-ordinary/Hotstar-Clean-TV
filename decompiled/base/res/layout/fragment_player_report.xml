@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?background_surface_default" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="@dimen/overlay_quality_layout_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:id="@id/report_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_14" android:layout_marginStart="@dimen/overlay_quality_title_margin_start" android:layout_marginEnd="@dimen/overlay_quality_title_margin_end" style="@style/Title1" />
+    <androidx.leanback.widget.VerticalGridView android:id="@id/report_list" android:paddingTop="20.0dp" android:paddingBottom="60.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="@dimen/overlay_quality_margin_top" android:layout_weight="1.0" android:layout_marginStart="@dimen/space_13" android:layout_marginEnd="@dimen/space_13" />
+</LinearLayout>

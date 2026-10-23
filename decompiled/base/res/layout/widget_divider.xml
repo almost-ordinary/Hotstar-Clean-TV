@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/divider_view_only" android:background="@drawable/divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" android:alpha="0.3" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.Group android:id="@id/group_text_in_center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="view_pre_text,tv_text,view_post_text" />
+        <View android:id="@id/view_pre_text" android:background="@drawable/shape_dividerline_pre_text" android:layout_width="0.0dp" android:layout_height="2.0dp" android:layout_marginEnd="@dimen/space_06" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/tv_text" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textSize="16.0sp" android:textColor="#707a94" android:gravity="center" android:id="@id/tv_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:paddingStart="@dimen/space_06" android:paddingEnd="@dimen/space_06" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/view_post_text" android:background="@drawable/shape_dividerline_post_text" android:layout_width="0.0dp" android:layout_height="2.0dp" android:layout_marginStart="@dimen/space_06" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/tv_text" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

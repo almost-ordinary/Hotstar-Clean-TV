@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hs_toast_container" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="end|bottom" android:orientation="horizontal" android:background="@drawable/toast_background" android:paddingTop="@dimen/toast_padding_top_bottom" android:paddingBottom="@dimen/toast_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/toast_padding_side" android:paddingEnd="@dimen/toast_padding_side">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:visibility="gone" android:layout_width="@dimen/toast_icon_width" android:layout_height="@dimen/toast_icon_height" android:layout_marginEnd="@dimen/space_06" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Caption1.Medium" />
+    </LinearLayout>
+</FrameLayout>

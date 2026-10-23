@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="127.0dp" android:width="1403.6797dp" android:viewportWidth="1680.0" android:viewportHeight="152.0"
+  xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$bg_billboard_gradient_starlight__0" android:pathData="M-2,-2 H1682 V128 C1682,139.3 1682,145 1678.5,148.5 C1675,152 1669.3,152 1656,152 H24 C12.7,152 5,152 1.5,148.5 C-2,145 -2,139.3 -2,128 V-2 Z" />
+</vector>

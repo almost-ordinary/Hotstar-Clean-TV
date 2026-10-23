@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/commn_banner_rounded_corners" />
+    <solid android:color="@color/background_surface_default" />
+    <stroke android:width="@dimen/space_01" android:color="@color/border_on_image_alt_2" />
+    <padding android:left="@dimen/space_01" android:top="@dimen/space_01" android:right="@dimen/space_01" android:bottom="@dimen/space_01" />
+</shape>

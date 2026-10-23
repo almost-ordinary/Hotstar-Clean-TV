@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_title_margin_top" android:textAlignment="center" android:layout_marginStart="@dimen/grid_title_margin_sides" android:layout_marginEnd="@dimen/grid_title_margin_sides" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/H4" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_alt_2" android:id="@id/tv_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" android:layout_marginStart="@dimen/grid_subtitle_margin_sides" android:layout_marginEnd="@dimen/grid_subtitle_margin_sides" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title" style="@style/Body1.Regular" />
+</merge>

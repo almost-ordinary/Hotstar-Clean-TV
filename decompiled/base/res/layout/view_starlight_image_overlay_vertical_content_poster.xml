@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/starlight_image_overlay_vertical_content_poster_width" android:layout_height="@dimen/starlight_image_overlay_vertical_content_poster_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@id/iv_overlay_image" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/iv_gradient" android:layout_width="110.0dp" android:layout_height="120.0dp" android:src="@drawable/overlay_gradient" android:layout_marginStart="20.0dp" />
+    </FrameLayout>
+    <include android:layout_gravity="end" android:id="@id/item_starlight_vertical_content_poster" android:layout_width="@dimen/starlight_vertical_content_poster_width" android:layout_height="@dimen/starlight_vertical_content_poster_height" layout="@layout/item_starlight_vertical_content_poster" />
+</merge>

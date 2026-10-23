@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/view_animation" android:background="@color/panther_grey_10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.feature.login.profile.customview.CircleImageView android:id="@id/iv_anim_profile" android:layout_width="80.0dp" android:layout_height="80.0dp" android:src="@drawable/add_icon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/pb_loader_main_activity" android:layout_width="@dimen/space_15" android:layout_height="@dimen/space_15" android:layout_marginBottom="120.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="?loader" app:lottie_speed="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

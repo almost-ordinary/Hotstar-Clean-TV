@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/splash_nav_graph" app:startDestination="@id/splash_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="SplashFragment" android:name="com.hotstar.feature.splash.SplashFragment" android:id="@id/splash_fragment">
+        <action android:id="@id/action_splash_to_landing" app:destination="@id/landing_nav_graph" />
+    </fragment>
+    <include app:graph="@navigation/landing_nav_graph" />
+</navigation>

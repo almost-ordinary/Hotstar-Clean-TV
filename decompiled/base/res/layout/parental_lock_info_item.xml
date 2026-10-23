@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_04" android:gravity="center" android:id="@id/tv_detail_num" android:background="@drawable/round_bg_text" android:layout_width="@dimen/space_08" android:layout_height="@dimen/space_08" android:textDirection="locale" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Body4.Medium" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_04" android:id="@id/tv_detail_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="219.0dp" android:textDirection="locale" android:layout_marginStart="@dimen/space_06" app:layout_constraintBottom_toBottomOf="@id/tv_detail_num" app:layout_constraintStart_toEndOf="@id/tv_detail_num" app:layout_constraintTop_toTopOf="@id/tv_detail_num" style="@style/Body3.Medium" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/transparent_drawable" android:layout_width="wrap_content" android:layout_height="196.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/iv_profile_view" android:layout_width="96.0dp" android:layout_height="96.0dp" android:maxWidth="96.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.hotstar.feature.login.profile.customview.CircleImageView android:id="@id/iv_profile" android:layout_width="80.0dp" android:layout_height="80.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/iv_selected" android:visibility="gone" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/checkbox" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/profile_name" android:layout_width="80.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_08" android:maxLines="1" app:layout_constraintEnd_toEndOf="@id/iv_profile_view" app:layout_constraintStart_toStartOf="@id/iv_profile_view" app:layout_constraintTop_toBottomOf="@id/iv_profile_view" style="@style/Button.Button2.SemiBold" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/edit_profile" android:visibility="gone" android:layout_width="42.0dp" android:layout_height="42.0dp" android:src="@drawable/edit_profile" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/profile_name" app:layout_constraintStart_toStartOf="@id/profile_name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

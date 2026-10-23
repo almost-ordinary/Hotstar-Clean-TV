@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/masthead_item_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/masthead_card_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/masthead_item_image" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/masthead_image_fallback" android:scaleType="centerCrop" />
+    <View android:id="@id/masthead_gradient_overlay" android:background="@drawable/masthead_item_gradient" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotstar.core.commonui.molecules.HSButtonTranslucent android:id="@id/surrounding_content_back_to_default_cta" android:layout_width="@dimen/binge_button_width" android:layout_height="40.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:textLabel=""
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

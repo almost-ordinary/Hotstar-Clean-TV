@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="100.0dp" android:width="200.0dp" android:viewportWidth="430.0" android:viewportHeight="215.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$background_starlight_spotlight_selected__0" android:pathData="M13,4L417,4A9,9 0,0 1,426 13L426,202A9,9 0,0 1,417 211L13,211A9,9 0,0 1,4 202L4,13A9,9 0,0 1,13 4z" android:strokeColor="#00000000" android:strokeWidth="0.0" />
+    <path android:fillColor="#00000000" android:pathData="M13,0.6L417,0.6A12.4,12.4 0,0 1,429.4 13L429.4,202A12.4,12.4 0,0 1,417 214.4L13,214.4A12.4,12.4 0,0 1,0.6 202L0.6,13A12.4,12.4 0,0 1,13 0.6z" android:strokeColor="@drawable/$background_starlight_spotlight_selected__1" android:strokeWidth="1.2" />
+</vector>

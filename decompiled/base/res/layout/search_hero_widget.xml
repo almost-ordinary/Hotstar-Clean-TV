@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:padding="6.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.hotstar.core.commonui.molecules.HSTrayItemImageView android:id="@id/hero_img" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="250.0dp" android:layout_height="145.0dp" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.hotstar.core.commonui.atoms.HSLiveDot android:id="@id/flashing_dot" android:layout_width="@dimen/live_dot_size" android:layout_height="@dimen/live_dot_size" android:layout_marginBottom="10.0dp" android:layout_marginEnd="6.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/label" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:layout_marginEnd="8.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="@style/Caption1.SemiBold" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="335.0dp" android:layout_height="match_parent" android:layout_marginStart="22.0dp">
+            <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_01" android:ellipsize="end" android:id="@id/hero_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:maxLines="2" android:textDirection="locale" style="@style/Title1" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_04" android:ellipsize="end" android:id="@id/hero_content_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:singleLine="true" android:textDirection="locale" style="@style/Caption1.SemiBold" />
+            <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_04" android:ellipsize="end" android:id="@id/hero_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="4" android:textDirection="locale" style="@style/Body4.Medium" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

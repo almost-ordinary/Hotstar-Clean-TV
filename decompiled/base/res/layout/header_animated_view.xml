@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/lottie_override_logo" android:visibility="gone" android:layout_width="@dimen/header_logo_width" android:layout_height="wrap_content" android:adjustViewBounds="true" app:lottie_autoPlay="true" app:lottie_loop="false" app:lottie_rawRes="@raw/worldcup_lottie" app:lottie_repeatCount="2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

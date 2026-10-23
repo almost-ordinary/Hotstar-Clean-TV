@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/vertical_content_poster_width" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:layout_width="72.0dp" android:layout_height="72.0dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="?tray_horizontal_loading" />
+</FrameLayout>

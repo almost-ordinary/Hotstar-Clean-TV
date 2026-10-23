@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_arrow_back"></string>
+    <string name="icon_arrow_forward"></string>
+    <string name="icon_backspace"></string>
+    <string name="icon_caret_back"></string>
+    <string name="icon_caret_forward"></string>
+    <string name="icon_logout"></string>
+    <string name="icon_pip"></string>
+    <string name="icon_share"></string>
+    <string name="icon_subtitle_fill"></string>
+    <string name="icon_subtitle_line"></string>
+    <string name="icon_trending"></string>
+    <string name="icon_volume_high_fill"></string>
+    <string name="icon_volume_high_line"></string>
+    <string name="icon_volume_low_fill"></string>
+    <string name="icon_volume_low_line"></string>
+    <string name="icon_volume_off_fill"></string>
+    <string name="icon_volume_off_line"></string>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotstar.widget.spotlight.starlight.PrimarySponsorTagsView android:id="@id/tg_sponsors_top" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_05" android:maxHeight="10.0dp" app:clipOverflowChildren="true" app:layout_constraintEnd_toEndOf="@id/tv_description" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_top_callout" app:layout_goneMarginTop="@dimen/space_06"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

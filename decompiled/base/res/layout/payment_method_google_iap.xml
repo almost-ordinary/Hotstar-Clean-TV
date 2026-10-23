@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_09" android:layout_marginStart="@dimen/qr_payment_method_space_12" android:layout_marginEnd="@dimen/qr_payment_method_space_09">
+        <View android:background="@color/panther_grey_01" android:layout_width="match_parent" android:layout_height="@dimen/qr_payment_method_one_dp" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_08" android:id="@id/google_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_09" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/Title1" />
+        <com.hotstar.core.commonui.molecules.HSButtonInverse android:textColor="@color/panther_grey_08" android:padding="@dimen/qr_payment_method_space_05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_09" android:layout_centerVertical="true" android:fontFamily="@font/inter_regular" android:layout_alignParentEnd="true" style="@style/Text.Button2.SemiBold" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="start|top" android:orientation="vertical" android:layout_width="@dimen/menu_width_collapsed" android:layout_height="wrap_content" android:layout_marginTop="@dimen/header_logo_margin_top">
+        <FrameLayout android:id="@id/logo_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@id/override_logo_stub" android:layout="@layout/header_animated_view" android:inflatedId="@id/lottie_override_logo" android:layout_width="40.0dp" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_logo" android:visibility="gone" android:layout_width="@dimen/header_logo_width" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+        </FrameLayout>
+        <com.hotstar.menu.ui.header.AnimatedSubscribeView android:id="@id/animatedSubscribeView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp" android:layout_marginTop="8.0dp" android:layout_marginRight="6.0dp" app:gradient_text_color_middle="@color/wasp_gold_01" app:gradient_text_color_start_end="@color/wasp_gold_03" />
+    </LinearLayout>
+</FrameLayout>

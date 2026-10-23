@@ -1,0 +1,35 @@
+# Build & Intermediate Caches
+work_jiohotstar/
+work_tv/
+tv_backup/
+sample/
+
+# Apktool temporary build cache and raw split copies
+decompiled/base/build/
+decompiled/raw_splits/
+
+# Untracked / experimental patches
+PATCH_1_AUTO_JUMP_LIVE_EDGE.txt
+PATCH_2_PERMANENT_SPEED.txt
+build_patched_apk.py
+extension/
+
+# Local share export directory
+SHARE_HOTSTAR_NO_ASLI/
+
+# Large Third-Party Tool Binaries
+tools/jadx/
+
+# Raw Original APKM / Signatures / Zips
+*.apkm
+*.idsig
+*.zip
+*.tmp
+tmp_*/
+
+# IDE & OS files
+.idea/
+.vscode/
+Thumbs.db
+[Dd]esktop.ini
+*.log

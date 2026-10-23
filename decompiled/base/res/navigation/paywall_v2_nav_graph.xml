@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/paywall_v2_nav_graph" app:startDestination="@id/paywall_v2_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.hotstar.page.paywallV2_page.PaywallV2Fragment" android:id="@id/paywall_v2_fragment">
+        <argument android:name="paywallV2PageId" app:argType="string" />
+        <deepLink app:uri="@string/deep_link_paywall_v2_fragment" />
+    </fragment>
+</navigation>

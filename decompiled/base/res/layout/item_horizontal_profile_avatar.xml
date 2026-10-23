@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/transparent_drawable" android:layout_width="86.0dp" android:layout_height="86.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.utils.widget.ImageFilterView android:id="@id/iv_profile" android:focusable="true" android:clickable="true" android:layout_width="62.0dp" android:layout_height="62.0dp" android:scaleType="centerCrop" android:alpha="0.4" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundPercent="1.0" />
+    <com.hotstar.feature.login.profile.customview.CircleImageView android:id="@id/iv_profile_focused" android:visibility="gone" android:layout_width="86.0dp" android:layout_height="86.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

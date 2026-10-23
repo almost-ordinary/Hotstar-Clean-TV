@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotstar.core.commonui.molecules.HSTextView android:id="@id/iconEnd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/soul_icons" android:layout_marginStart="@dimen/space_06" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/space_end" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/textSublabel" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

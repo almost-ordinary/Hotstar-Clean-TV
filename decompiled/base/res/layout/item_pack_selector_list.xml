@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.leanback.widget.HorizontalGridView android:id="@id/pack_selector_list_row" android:layout_width="match_parent" android:layout_height="125.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/wasp_gold_04" android:gravity="center" android:id="@id/tv_purchase_disclaimer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pack_selector_list_row" style="@style/Body2.Medium" />
+</androidx.constraintlayout.widget.ConstraintLayout>

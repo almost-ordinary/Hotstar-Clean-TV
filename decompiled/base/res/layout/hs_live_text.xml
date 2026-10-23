@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hotstar.core.commonui.atoms.HSLiveDot android:id="@id/dot" android:layout_width="@dimen/live_dot_size" android:layout_height="@dimen/live_dot_size" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/white" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/dot" app:layout_constraintTop_toTopOf="parent" style="@style/Label.Overline2.SemiBold" />
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="@dimen/live_label_height" android:adjustViewBounds="true" android:layout_marginStart="@dimen/live_label_start_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/dot" app:layout_constraintTop_toTopOf="parent" />
+</merge>

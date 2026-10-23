@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/qr_payment_method_space_10" android:layout_marginBottom="@dimen/space_10">
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_08" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/qr_payment_method_space_12" style="@style/H5" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/ll_upi_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/qr_payment_method_space_13" android:layout_marginStart="@dimen/qr_payment_method_space_12">
+            <RelativeLayout android:id="@id/iv_qr_code_container" android:layout_width="@dimen/qr_payment_method_space_19" android:layout_height="@dimen/qr_payment_method_space_19" android:layout_marginTop="@dimen/qr_payment_method_space_07">
+                <androidx.cardview.widget.CardView android:id="@id/iv_qr_loading_hint_container" android:padding="1.0dp" android:layout_width="match_parent" android:layout_height="match_parent" app:cardBackgroundColor="?on_surface_default" app:cardCornerRadius="10.0dp" app:cardElevation="0.0dp">
+                    <ImageView android:id="@id/iv_qr_loading_hint" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                </androidx.cardview.widget.CardView>
+                <RelativeLayout android:id="@id/qr_loading" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/loading_animation" android:layout_width="42.0dp" android:layout_height="42.0dp" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="?loader" />
+                    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_08" android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/loading_animation" android:layout_centerHorizontal="true" style="@style/Body2.Medium" />
+                </RelativeLayout>
+                <com.hotstar.core.commonui.molecules.HSButton android:id="@id/btn_show_qr_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginRight="8.0dp" android:layout_centerInParent="true" app:textLabel="Show QR Code" />
+                <ImageView android:id="@id/iv_qr_code" android:layout_width="@dimen/qr_payment_method_space_19" android:layout_height="@dimen/qr_payment_method_space_19" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_upi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_05" android:layout_toRightOf="@id/iv_qr_code_container" android:layout_alignTop="@id/iv_qr_code_container" android:layout_marginStart="@dimen/qr_payment_method_space_08">
+                <com.hotstar.core.commonui.molecules.HSTextView android:textStyle="bold" android:textColor="@color/panther_grey_08" android:id="@id/meta_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/Title1" />
+                <ImageView android:id="@id/meta_image" android:layout_width="wrap_content" android:layout_height="@dimen/qr_payment_method_space_12" android:layout_marginTop="@dimen/qr_payment_method_space_06" />
+                <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_08" android:id="@id/fallback_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_06" android:layout_marginEnd="@dimen/qr_payment_method_space_14" style="@style/Body2.Medium" />
+            </LinearLayout>
+            <com.hotstar.core.commonui.molecules.HSTextView android:textColor="@color/panther_grey_04" android:id="@id/qr_timer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_payment_method_space_04" android:layout_below="@id/iv_qr_code_container" style="@style/Body3.Medium" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

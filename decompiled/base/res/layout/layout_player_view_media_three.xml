@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hotstar.media3.player.core.RoiPlayerView android:layout_gravity="center" android:id="@id/roi_player_view" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.media3.ui.AspectRatioFrameLayout android:layout_gravity="center" android:id="@id/exo_content_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:id="@id/exo_shutter" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.media3.ui.AspectRatioFrameLayout>
+    </com.hotstar.media3.player.core.RoiPlayerView>
+    <androidx.media3.ui.SubtitleView android:id="@id/exo_subtitles" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

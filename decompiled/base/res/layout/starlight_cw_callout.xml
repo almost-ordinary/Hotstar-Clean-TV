@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hotstar.widget.spotlight.starlight.CalloutTagsView android:id="@id/tv_top_callout" android:layout_width="0.0dp" android:layout_height="wrap_content" app:clipOverflowChildren="false" app:maxChildren="1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

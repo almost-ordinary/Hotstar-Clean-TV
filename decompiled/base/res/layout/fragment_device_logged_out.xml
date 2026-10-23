@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/black_92A" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?background_surface_default" android:layout_width="304.0dp" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_default" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="42.0dp" android:textDirection="locale" android:layout_marginStart="54.0dp" android:layout_marginEnd="36.0dp" style="@style/Title1" />
+        <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_surface_alt" android:id="@id/desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:singleLine="false" android:textDirection="locale" android:layout_marginStart="54.0dp" android:layout_marginEnd="36.0dp" style="@style/Body2.Medium" />
+        <com.hotstar.feature.login.profile.customview.HSSelectButton android:id="@id/selectLogout" android:nextFocusLeft="@id/selectLogout" android:nextFocusRight="@id/selectLogout" android:nextFocusUp="@id/selectLogout" android:nextFocusDown="@id/selectLogout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:nextFocusForward="@id/selectLogout" android:layout_marginStart="38.0dp" android:layout_marginEnd="38.0dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

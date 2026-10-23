@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="bottom" android:id="@id/gradient_overlay" android:background="@drawable/background_overlay_gradient_01" android:layout_width="match_parent" android:layout_height="86.0dp" android:rotation="180.0" />
+    <FrameLayout android:layout_gravity="start|bottom" android:id="@id/iv_title_cutout_container" android:layout_width="273.0dp" android:layout_height="70.0dp" android:layout_marginBottom="@dimen/space_08" android:layout_marginStart="@dimen/space_08">
+        <ImageView android:layout_gravity="start|bottom" android:id="@id/iv_title_cutout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitStart" android:adjustViewBounds="true" android:contentDescription="Content title" />
+    </FrameLayout>
+    <com.hotstar.core.commonui.molecules.HSTextView android:textColor="?on_image_default" android:gravity="bottom" android:layout_gravity="start|bottom" android:id="@id/tv_title" android:layout_width="273.0dp" android:layout_height="76.0dp" android:layout_marginBottom="@dimen/space_08" android:maxLines="2" android:layout_marginStart="@dimen/space_08" style="@style/H3" />
+</merge>
